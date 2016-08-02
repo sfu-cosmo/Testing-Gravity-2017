@@ -1,0 +1,17 @@
+# ignore backups and source images
+artwork/sources/*
+backups/*
+snippets/*
+
+# ignore map data
+*.cpg
+*.dbf
+*.prj
+*.qpj
+*.shp
+*.shx
+
+# ignore spreadsheets
+*.xls
+*.xlsx
+*.numbers
