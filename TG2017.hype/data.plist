@@ -9,7 +9,7 @@
 	<key>createOfflineApplicationCache</key>
 	<false/>
 	<key>currentSceneContainer</key>
-	<string>1</string>
+	<string>63</string>
 	<key>customExportSlices</key>
 	<array>
 		<dict>
@@ -141,6 +141,26 @@
 			<key>oid</key>
 			<string>ACBA6FB6-494D-4257-A96F-D6F3E0CE4EF7-86977-00003AB36AA2817B</string>
 		</dict>
+		<dict>
+			<key>additionalHeadHTML</key>
+			<string>&lt;link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow&amp;subset=latin' rel='stylesheet' type='text/css'&gt;</string>
+			<key>categories</key>
+			<array>
+				<string>Google Fonts</string>
+				<string>Web</string>
+				<string>iOS</string>
+			</array>
+			<key>fontNames</key>
+			<array>
+				<string>PT Sans Narrow</string>
+			</array>
+			<key>fontSource</key>
+			<integer>1</integer>
+			<key>name</key>
+			<string>PT Sans Narrow</string>
+			<key>oid</key>
+			<string>99BF31BF-D492-4FBC-B5C8-EB69C45FFF84-86977-00003DE111773A08</string>
+		</dict>
 	</array>
 	<key>guidesAreLocked</key>
 	<false/>
@@ -149,11 +169,11 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2016-08-03T03:04:49Z</date>
+	<date>2016-08-03T03:50:15Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>5</integer>
+		<integer>4</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -293,7 +313,7 @@
 			</array>
 		</dict>
 		<key>keyframeTimelineHeight</key>
-		<real>124</real>
+		<real>70</real>
 		<key>mainWindowFrame</key>
 		<string>55 59 1218 718 0 0 1280 777 </string>
 		<key>openTabs</key>
@@ -339,7 +359,7 @@
 	<key>monotypeProjectID</key>
 	<string>F08A39BB-D3D0-42DE-B9C0-CCFF87E59384-76220-000030AB372FD229</string>
 	<key>oidCounter</key>
-	<integer>67</integer>
+	<integer>74</integer>
 	<key>pageTitle</key>
 	<string>Testing Gravity 2017</string>
 	<key>resourcesInfo</key>
@@ -870,7 +890,9 @@
 					<key>animationController</key>
 					<dict>
 						<key>expandedItems</key>
-						<array/>
+						<array>
+							<string>62</string>
+						</array>
 						<key>timeCursors</key>
 						<dict>
 							<key>kTimelineDefaultIdentifier</key>
@@ -905,7 +927,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>2</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
+					<string>{0, 144}</string>
 				</dict>
 			</array>
 		</dict>
@@ -986,7 +1008,9 @@
 			<key>documentIdentifier</key>
 			<string>99CCDA71-D597-41FB-8BBD-64D920CB9997-86977-00003901366C89F8</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>59</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -1633,7 +1657,7 @@ a:hover, a:active { color: #FF2600 }
 							<key>identifier</key>
 							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>Speakers</string>
+							<string>Organizers</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2582,7 +2606,7 @@ a:hover, a:active { color: #FF2600 }
 							<key>identifier</key>
 							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>#797979</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3600,7 +3624,7 @@ a:hover, a:active { color: #FF2600 }
 							<key>identifier</key>
 							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>#797979</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4950,7 +4974,7 @@ a:hover, a:active { color: #FF2600 }
 									<key>identifier</key>
 									<string>BackgroundColor</string>
 									<key>objectValue</key>
-									<string>#CDDEE8</string>
+									<string>#B8C8D1</string>
 								</dict>
 								<key>identifier</key>
 								<string>BackgroundColor</string>
@@ -5023,7 +5047,7 @@ a:hover, a:active { color: #FF2600 }
 									<key>identifier</key>
 									<string>BackgroundColor</string>
 									<key>objectValue</key>
-									<string>#CDDEE8</string>
+									<string>#B8C8D1</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -5097,7 +5121,7 @@ a:hover, a:active { color: #FF2600 }
 									<key>identifier</key>
 									<string>BackgroundColor</string>
 									<key>objectValue</key>
-									<string>#CDDEE8</string>
+									<string>#B8C8D1</string>
 								</dict>
 								<key>identifier</key>
 								<string>BackgroundColor</string>
@@ -5170,7 +5194,7 @@ a:hover, a:active { color: #FF2600 }
 									<key>identifier</key>
 									<string>BackgroundColor</string>
 									<key>objectValue</key>
-									<string>#CDDEE8</string>
+									<string>#B8C8D1</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -5208,7 +5232,7 @@ a:hover, a:active { color: #FF2600 }
 									<key>identifier</key>
 									<string>BackgroundColor</string>
 									<key>objectValue</key>
-									<string>#CDDEE8</string>
+									<string>#B8C8D1</string>
 								</dict>
 								<key>identifier</key>
 								<string>BackgroundColor</string>
@@ -5252,7 +5276,7 @@ a:hover, a:active { color: #FF2600 }
 									<key>identifier</key>
 									<string>BackgroundColor</string>
 									<key>objectValue</key>
-									<string>#CDDEE8</string>
+									<string>#B8C8D1</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -5290,7 +5314,7 @@ a:hover, a:active { color: #FF2600 }
 									<key>identifier</key>
 									<string>BackgroundColor</string>
 									<key>objectValue</key>
-									<string>#CDDEE8</string>
+									<string>#B8C8D1</string>
 								</dict>
 								<key>identifier</key>
 								<string>BackgroundColor</string>
@@ -5320,6 +5344,42 @@ a:hover, a:active { color: #FF2600 }
 							</dict>
 							<dict>
 								<key>duration</key>
+								<real>1</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>TextColor</string>
+									<key>objectValue</key>
+									<string>#797979</string>
+								</dict>
+								<key>identifier</key>
+								<string>TextColor</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>24</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>TextColor</string>
+									<key>objectValue</key>
+									<string>#797979</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>231DEB92-A6A9-4BE6-B1B4-A3E68954FC05-86977-00003E7AF43C6D4A</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
 								<real>0.0</real>
 								<key>identifier</key>
 								<string>BackgroundColor</string>
@@ -5334,7 +5394,7 @@ a:hover, a:active { color: #FF2600 }
 									<key>identifier</key>
 									<string>BackgroundColor</string>
 									<key>objectValue</key>
-									<string>#CDDEE8</string>
+									<string>#B8C8D1</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -5344,6 +5404,35 @@ a:hover, a:active { color: #FF2600 }
 								<integer>0</integer>
 								<key>uuid</key>
 								<string>89F59325-29A9-4127-81DB-FD39F52F8E70-76220-00003248920B71CD</string>
+								<key>zIndex</key>
+								<integer>2</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>TextColor</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>24</string>
+								<key>startTime</key>
+								<real>1</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>TextColor</string>
+									<key>objectValue</key>
+									<string>#797979</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>0142414E-DD7F-4E5B-8159-C0A7DD1DC4BC-86977-00003E7AF4408083</string>
 								<key>zIndex</key>
 								<integer>2</integer>
 							</dict>
@@ -6956,6 +7045,870 @@ a:hover, a:active { color: #FF2600 }
 							<string>Symbol</string>
 						</dict>
 					</array>
+					<key>68</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>OriginalHeight</string>
+							<key>objectValue</key>
+							<string>736px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ConstrainProportions</string>
+							<key>objectValue</key>
+							<string>NO</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleRight</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ScaleY</string>
+							<key>objectValue</key>
+							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>iframe</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleBottom</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleLeft</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Parent</string>
+							<key>objectValue</key>
+							<string>74</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>UserSelect</string>
+							<key>objectValue</key>
+							<string>none</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>736px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>IFrameType</string>
+							<key>objectValue</key>
+							<string>0</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>IFrameHTML</string>
+							<key>objectValue</key>
+							<string>&lt;div&gt;
+&lt;canvas id="myCanvas" width="720" height="720"&gt;&lt;/canvas&gt;
+&lt;script&gt;
+var start = new Date('August 1, 2016 00:00:00');
+var early = new Date('November 30, 2016 22:00:00');
+var close = new Date('January 24, 2017 22:00:00');
+var today = new Date();
+
+var latefee = Math.min(Math.max(0.0, (early.getTime()-start.getTime()) / (close.getTime()-start.getTime() + 0.0)), 1.0)
+var elapsed = Math.min(Math.max(0.0, (today.getTime()-start.getTime()) / (close.getTime()-start.getTime() + 0.0)), 1.0)
+
+var canvas = document.getElementById('myCanvas');
+var context = canvas.getContext('2d');
+var x = canvas.width / 2;
+var y = canvas.height / 2;
+var r = Math.min(x,y) * 4 / 5;
+var a = 0.75 * Math.PI;
+var b = 2.25 * Math.PI;
+var c = a + elapsed*(b-a);
+var d = a + latefee*(b-a);
+var counterClockwise = false;
+
+// gauge extent
+context.beginPath();
+context.arc(x, y, r, a, b, counterClockwise);
+context.lineWidth = 32;
+context.strokeStyle = '#EBEBEB';
+context.stroke();
+
+// late fee extent
+context.beginPath();
+context.arc(x, y, r, d, b, counterClockwise);
+context.lineWidth = 32;
+context.strokeStyle = (c &gt; d) ? '#FF2600' : '#FFEBEB';
+context.stroke();
+
+// elapsed extent
+context.beginPath();
+context.arc(x, y, r, a, c, counterClockwise);
+context.strokeStyle = '#B8C8D1';
+context.stroke();
+&lt;/script&gt;
+&lt;/div&gt;
+</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AutoresizingMask</string>
+							<key>objectValue</key>
+							<string>37</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ScaleX</string>
+							<key>objectValue</key>
+							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleTop</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>728px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>hidden</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>HTML Widget</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>IFrameURL</string>
+							<key>objectValue</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>OriginalWidth</string>
+							<key>objectValue</key>
+							<string>728px</string>
+						</dict>
+					</array>
+					<key>69</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>FontFamily</string>
+							<key>objectValue</key>
+							<string>'EB Garamond'</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextColor</string>
+							<key>objectValue</key>
+							<string>#000000</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingRight</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>FontSize</string>
+							<key>objectValue</key>
+							<string>16px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Display</string>
+							<key>objectValue</key>
+							<string>inline</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>WordWrap</string>
+							<key>objectValue</key>
+							<string>break-word</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Text</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>198px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingBottom</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>WhiteSpaceCollapsing</string>
+							<key>objectValue</key>
+							<string>preserve</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>104px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AutoresizingMask</string>
+							<key>objectValue</key>
+							<string>37</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>16px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextAlign</string>
+							<key>objectValue</key>
+							<string>justify</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string>&lt;style type="text/css"&gt;
+&lt;!--
+a:link, a:visited { color: #000000 }
+a:hover, a:active { color: #FF2600 }
+--&gt;
+&lt;/style&gt;
+
+Registration fee for regular and student participants is $250 and $150 prior to November 30th, 2016. Late registration fee is increased to $300 and $200 respectively. Additional fee for attendance of pre-conference school is $50, and banquet tickets are $75 per person. Registration closes January 24th, 2017. Workshop capacity is limited to 150 participants. Cancellations are subject to 10% penalty, with no refunds after January 13th, 2017. Payment for registration fees is accepted by credit card on-line and will be processed by &lt;a href="http://www.sfu.ca/mecs.html"&gt;SFU Meeting, Event and Conference Services&lt;/a&gt;. All credit card transactions will be processed in Canadian dollars and are subject to current exchange rates.
+</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>976px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>6</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingTop</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>Blurb</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+					</array>
+					<key>70</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleRight</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleTop</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Display</string>
+							<key>objectValue</key>
+							<string>inline</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthBottom</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ShowButtonEditor</string>
+							<key>objectValue</key>
+							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>WordWrap</string>
+							<key>objectValue</key>
+							<string>break-word</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundColor</string>
+							<key>objectValue</key>
+							<string>#B8C8D1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Parent</string>
+							<key>objectValue</key>
+							<string>74</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthRight</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthTop</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ButtonHover</string>
+							<key>objectValue</key>
+							<string>70_hover</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#A0A0A0</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleLeft</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>FontSize</string>
+							<key>objectValue</key>
+							<string>48px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderRadiusTopRight</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>Button</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextColor</string>
+							<key>objectValue</key>
+							<string>#FFFFFF</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string>Register Now</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>72px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorTop</string>
+							<key>objectValue</key>
+							<string>#A0A0A0</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextAlign</string>
+							<key>objectValue</key>
+							<string>center</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>6px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>326px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>2</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>UserSelect</string>
+							<key>objectValue</key>
+							<string>none</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>WhiteSpaceCollapsing</string>
+							<key>objectValue</key>
+							<string>preserve</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingTop</string>
+							<key>objectValue</key>
+							<string>6px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleBottom</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingBottom</string>
+							<key>objectValue</key>
+							<string>6px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorLeft</string>
+							<key>objectValue</key>
+							<string>#A0A0A0</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>308px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingRight</string>
+							<key>objectValue</key>
+							<string>6px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Button</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>FontFamily</string>
+							<key>objectValue</key>
+							<string>'PT Sans Narrow'</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ActionHandlerOnMouseClick</string>
+							<key>objectValue</key>
+							<dict>
+								<key>actions</key>
+								<array>
+									<dict>
+										<key>goToURL</key>
+										<string>https://cars-ebmsweb.its.sfu.ca/reg/reg_p1_form.aspx?oc=01&amp;ct=STANDARD&amp;eventid=89799</string>
+										<key>openInNewWindow</key>
+										<true/>
+										<key>type</key>
+										<integer>5</integer>
+									</dict>
+								</array>
+							</dict>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>204px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderRadiusBottomRight</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorRight</string>
+							<key>objectValue</key>
+							<string>#A0A0A0</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderRadiusBottomLeft</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderRadiusTopLeft</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthLeft</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ButtonPress</string>
+							<key>objectValue</key>
+							<string>70_pressed</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Cursor</string>
+							<key>objectValue</key>
+							<string>pointer</string>
+						</dict>
+					</array>
+					<key>71</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>FontFamily</string>
+							<key>objectValue</key>
+							<string>'PT Sans Narrow'</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingRight</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>FontSize</string>
+							<key>objectValue</key>
+							<string>36px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Display</string>
+							<key>objectValue</key>
+							<string>inline</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>WordWrap</string>
+							<key>objectValue</key>
+							<string>break-word</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Text</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>502px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingBottom</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Parent</string>
+							<key>objectValue</key>
+							<string>74</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>WhiteSpaceCollapsing</string>
+							<key>objectValue</key>
+							<string>preserve</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>141px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>255px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextAlign</string>
+							<key>objectValue</key>
+							<string>center</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string>Fees increase&lt;br&gt;November 30th,&lt;br&gt;2016&lt;br&gt;</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>3</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>201px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingTop</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>Text</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextColor</string>
+							<key>objectValue</key>
+							<string>#000000</string>
+						</dict>
+					</array>
+					<key>74</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>736px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>Group</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>279px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>148px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Group</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>728px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AutoresizingMask</string>
+							<key>objectValue</key>
+							<string>37</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+					</array>
 				</dict>
 				<key>isPersistentSymbol</key>
 				<false/>
@@ -6995,6 +7948,170 @@ a:hover, a:active { color: #FF2600 }
 						<string>kTimelineDefaultIdentifier</string>
 						<key>name</key>
 						<string>Main Timeline</string>
+						<key>userDefinedDuration</key>
+						<real>0.0</real>
+					</dict>
+					<dict>
+						<key>animations</key>
+						<array>
+							<dict>
+								<key>duration</key>
+								<real>1</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>BackgroundColor</string>
+									<key>objectValue</key>
+									<string>#CDDEE8</string>
+								</dict>
+								<key>identifier</key>
+								<string>BackgroundColor</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>70</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>BackgroundColor</string>
+									<key>objectValue</key>
+									<string>#B8C8D1</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>8A711449-C107-4216-B887-1E73604D84EF-86977-00003E1DC113C9CA</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>BackgroundColor</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>70</string>
+								<key>startTime</key>
+								<real>1</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>BackgroundColor</string>
+									<key>objectValue</key>
+									<string>#CDDEE8</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>51750440-D36B-460A-91AE-C3BDDA32F0E2-86977-00003E1DC11CC0C0</string>
+								<key>zIndex</key>
+								<integer>2</integer>
+							</dict>
+						</array>
+						<key>firstKeyframeIsRelative</key>
+						<false/>
+						<key>framesPerSecond</key>
+						<integer>30</integer>
+						<key>hidden</key>
+						<true/>
+						<key>identifier</key>
+						<string>70_hover</string>
+						<key>name</key>
+						<string>70_hover</string>
+						<key>userDefinedDuration</key>
+						<real>0.0</real>
+					</dict>
+					<dict>
+						<key>animations</key>
+						<array>
+							<dict>
+								<key>duration</key>
+								<real>1</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>BackgroundColor</string>
+									<key>objectValue</key>
+									<string>#CDDEE8</string>
+								</dict>
+								<key>identifier</key>
+								<string>BackgroundColor</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>70</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>BackgroundColor</string>
+									<key>objectValue</key>
+									<string>#B8C8D1</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>29C89B2D-A692-4C7F-8947-738A47CA4D2D-86977-00003E20ED721A3D</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>BackgroundColor</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>70</string>
+								<key>startTime</key>
+								<real>1</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>BackgroundColor</string>
+									<key>objectValue</key>
+									<string>#CDDEE8</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>6D47B57A-2733-4958-945C-3EB277B2425F-86977-00003E20ED78115F</string>
+								<key>zIndex</key>
+								<integer>2</integer>
+							</dict>
+						</array>
+						<key>firstKeyframeIsRelative</key>
+						<false/>
+						<key>framesPerSecond</key>
+						<integer>30</integer>
+						<key>hidden</key>
+						<true/>
+						<key>identifier</key>
+						<string>70_pressed</string>
+						<key>name</key>
+						<string>70_pressed</string>
 						<key>userDefinedDuration</key>
 						<real>0.0</real>
 					</dict>
