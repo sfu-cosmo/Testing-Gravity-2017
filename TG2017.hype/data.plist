@@ -46,8 +46,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierPosition</string>
 		<string>kPropertiesMenuItemIdentifierAnimated</string>
+		<string>kPropertiesMenuItemIdentifierPosition</string>
 	</array>
 	<key>documentVersion</key>
 	<string>530</string>
@@ -169,11 +169,11 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2016-08-03T03:50:15Z</date>
+	<date>2016-08-03T05:43:36Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>4</integer>
+		<integer>2</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -359,7 +359,7 @@
 	<key>monotypeProjectID</key>
 	<string>F08A39BB-D3D0-42DE-B9C0-CCFF87E59384-76220-000030AB372FD229</string>
 	<key>oidCounter</key>
-	<integer>74</integer>
+	<integer>75</integer>
 	<key>pageTitle</key>
 	<string>Testing Gravity 2017</string>
 	<key>resourcesInfo</key>
@@ -890,9 +890,7 @@
 					<key>animationController</key>
 					<dict>
 						<key>expandedItems</key>
-						<array>
-							<string>62</string>
-						</array>
+						<array/>
 						<key>timeCursors</key>
 						<dict>
 							<key>kTimelineDefaultIdentifier</key>
@@ -927,7 +925,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>2</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 144}</string>
+					<string>{0, 0}</string>
 				</dict>
 			</array>
 		</dict>
@@ -979,7 +977,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>64</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
+					<string>{0, 9.5}</string>
 				</dict>
 			</array>
 		</dict>
@@ -1006,10 +1004,10 @@
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>99CCDA71-D597-41FB-8BBD-64D920CB9997-86977-00003901366C89F8</string>
+			<string>623F3490-4F37-46B1-BD18-3EB2C3B787E9-99113-000042F016378137</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>59</string>
+				<string>75</string>
 			</array>
 			<key>symbol</key>
 			<dict>
@@ -1181,9 +1179,15 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>LineHeight</string>
+							<key>objectValue</key>
+							<string>18px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1195,7 +1199,7 @@
 							<key>identifier</key>
 							<string>FontSize</string>
 							<key>objectValue</key>
-							<string>16px</string>
+							<string>18px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1249,7 +1253,7 @@
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>168px</string>
+							<string>162px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1284,9 +1288,9 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>4</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1296,9 +1300,9 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1320,9 +1324,9 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>60</key>
@@ -1335,9 +1339,9 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1383,15 +1387,15 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingBottom</string>
+							<string>Parent</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>75</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Parent</string>
+							<string>PaddingBottom</string>
 							<key>objectValue</key>
-							<string>62</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1409,7 +1413,7 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>829px</string>
+							<string>835px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1423,7 +1427,7 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 							<key>objectValue</key>
 							<string>&lt;font face="PT Sans Caption" size="6"&gt;Invited Speakers:
 &lt;/font&gt;
-&lt;ul&gt;
+&lt;font face="EB Garamond" size="4"&gt;&lt;ul&gt;
 &lt;li&gt;Eric Adelberger (U. Wash)
 &lt;/li&gt;&lt;li&gt;Bruce Allen (MPI &amp;amp; LIGO)
 &lt;/li&gt;&lt;li&gt;Emanuele Berti (Mississippi) *
@@ -1443,14 +1447,14 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 &lt;/li&gt;&lt;li&gt;Claudia de Rham (Case Western)
 &lt;/li&gt;&lt;li&gt;Mark Trodden (UPenn)
 &lt;/li&gt;&lt;li&gt;Martin White (UC Berkeley)
-&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;
 </string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1460,9 +1464,9 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1484,9 +1488,9 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>61</key>
@@ -1499,9 +1503,9 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1547,15 +1551,15 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingBottom</string>
+							<string>Parent</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>75</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Parent</string>
+							<string>PaddingBottom</string>
 							<key>objectValue</key>
-							<string>62</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1573,7 +1577,7 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>829px</string>
+							<string>835px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1594,33 +1598,33 @@ a:hover, a:active { color: #FF2600 }
 
 &lt;font face="PT Sans Caption" size="6"&gt;Topics on Agenda:
 &lt;/font&gt;
-&lt;ul&gt;
+&lt;font face="EB Garamond" size="4"&gt;&lt;ul&gt;
 &lt;li&gt;gravitational waves
 &lt;/li&gt;&lt;li&gt;astrophysical tests, pulsars, black holes
 &lt;/li&gt;&lt;li&gt;terrestrial tests, gravity on short distances
-&lt;/li&gt;&lt;li&gt;cosmological probes: CMB, 21 cm, redshift surveys, weak lensing
+&lt;/li&gt;&lt;li&gt;cosmological probes: &lt;font size="3"&gt;CMB, 21 cm, redshift surveys, weak lensing&lt;/font&gt;
 &lt;/li&gt;&lt;li&gt;particle cosmology, dark matter
 &lt;/li&gt;&lt;li&gt;modified gravity theories
 &lt;/li&gt;&lt;li&gt;quantum gravity and emergent gravity
-&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;
 
 &lt;font face="PT Sans Caption" size="6"&gt;Conference Organizers:
 &lt;/font&gt;
-&lt;ul&gt;
+&lt;font face="EB Garamond" size="4"&gt;&lt;ul&gt;
 &lt;li&gt;Andrei Frolov (SFU)
 &lt;/li&gt;&lt;li&gt;Makoto Fujiwara (TRIUMF)
 &lt;/li&gt;&lt;li&gt;Levon Pogosian (SFU)
 &lt;/li&gt;&lt;li&gt;Maxim Pospelov (Victoria/Perimeter)
 &lt;/li&gt;&lt;li&gt;Dimitrios Psaltis (Arizona)
 &lt;/li&gt;&lt;li&gt;Douglas Scott (UBC)
-&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;
 
 &lt;font face="PT Sans Caption" size="6"&gt;Contact Us:
 &lt;/font&gt;
-&lt;ul&gt;
+&lt;font face="EB Garamond" size="4"&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="mailto:testing-gravity-2017-announce-request@sfu.ca?&amp;amp;subject=Subscribe&amp;amp;body=To receive notifications about registration deadlines and other updates, subscribe to the conference mailing list by sending an email to testing-gravity-2017-announce-request@sfu.ca with %22subscribe%22 in the subject line."&gt;subscribe to conference news&lt;/a&gt;
 &lt;/li&gt;&lt;li&gt;&lt;a href="mailto:testing-gravity-2017@sfu.ca"&gt;contact organizing committee&lt;/a&gt;
-&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;
 </string>
 						</dict>
 						<dict>
@@ -1631,15 +1635,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>472px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>2</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>472px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1661,18 +1665,18 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
-					<key>62</key>
+					<key>75</key>
 					<array>
 						<dict>
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>845px</string>
+							<string>851px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1696,7 +1700,7 @@ a:hover, a:active { color: #FF2600 }
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>398px</string>
+							<string>392px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1837,7 +1841,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>99CCDA71-D597-41FB-8BBD-64D920CB9997-86977-00003901366C89F8</string>
+			<string>623F3490-4F37-46B1-BD18-3EB2C3B787E9-99113-000042F016378137</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -1854,27 +1858,27 @@ a:hover, a:active { color: #FF2600 }
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>#B8C8D1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1962,15 +1966,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>1024px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>2</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>1024px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1992,15 +1996,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#B8C8D1</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>21</key>
@@ -2367,9 +2371,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2463,12 +2467,6 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
@@ -2478,6 +2476,12 @@ a:hover, a:active { color: #FF2600 }
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>704px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2499,9 +2503,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>24</key>
@@ -5455,7 +5459,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>99CCDA71-D597-41FB-8BBD-64D920CB9997-86977-00003901366C89F8</string>
+			<string>623F3490-4F37-46B1-BD18-3EB2C3B787E9-99113-000042F016378137</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>58</string>
@@ -5474,27 +5478,27 @@ a:hover, a:active { color: #FF2600 }
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#B8C8D1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5612,15 +5616,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#B8C8D1</string>
 						</dict>
 					</array>
 					<key>51</key>
@@ -5696,9 +5700,9 @@ a:hover, a:active { color: #FF2600 }
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>540px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5840,18 +5844,18 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>540px</string>
 						</dict>
 					</array>
 					<key>53</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1920px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5993,18 +5997,18 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1920px</string>
 						</dict>
 					</array>
 					<key>54</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>640px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6146,18 +6150,18 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>640px</string>
 						</dict>
 					</array>
 					<key>55</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1920px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6305,18 +6309,18 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1920px</string>
 						</dict>
 					</array>
 					<key>56</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>109.9px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6458,18 +6462,18 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>109.9px</string>
 						</dict>
 					</array>
 					<key>57</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>293px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6611,18 +6615,18 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>293px</string>
 						</dict>
 					</array>
 					<key>58</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>267px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6764,9 +6768,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>267px</string>
 						</dict>
 					</array>
 				</dict>
@@ -6882,9 +6886,11 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>99CCDA71-D597-41FB-8BBD-64D920CB9997-86977-00003901366C89F8</string>
+			<string>623F3490-4F37-46B1-BD18-3EB2C3B787E9-99113-000042F016378137</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>69</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -7049,15 +7055,15 @@ a:hover, a:active { color: #FF2600 }
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalHeight</string>
+							<string>IFrameURL</string>
 							<key>objectValue</key>
-							<string>736px</string>
+							<string></string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>728px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7097,6 +7103,12 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>Parent</string>
+							<key>objectValue</key>
+							<string>74</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
 							<string>0px</string>
@@ -7106,12 +7118,6 @@ a:hover, a:active { color: #FF2600 }
 							<string>BorderStyleLeft</string>
 							<key>objectValue</key>
 							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Parent</string>
-							<key>objectValue</key>
-							<string>74</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7236,15 +7242,15 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>IFrameURL</string>
+							<string>OriginalHeight</string>
 							<key>objectValue</key>
-							<string></string>
+							<string>736px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>728px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>69</key>
@@ -7257,9 +7263,15 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>LineHeight</string>
+							<key>objectValue</key>
+							<string>18px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7271,7 +7283,7 @@ context.stroke();
 							<key>identifier</key>
 							<string>FontSize</string>
 							<key>objectValue</key>
-							<string>16px</string>
+							<string>18px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7325,7 +7337,7 @@ context.stroke();
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>104px</string>
+							<string>94px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7367,15 +7379,15 @@ Registration fee for regular and student participants is $250 and $150 prior to 
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>976px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>6</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>976px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7397,9 +7409,9 @@ Registration fee for regular and student participants is $250 and $150 prior to 
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>70</key>
@@ -7424,12 +7436,6 @@ Registration fee for regular and student participants is $250 and $150 prior to 
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ShowButtonEditor</string>
 							<key>objectValue</key>
 							<string>1</string>
@@ -7442,15 +7448,21 @@ Registration fee for regular and student participants is $250 and $150 prior to 
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>#B8C8D1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Parent</string>
 							<key>objectValue</key>
 							<string>74</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthBottom</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundColor</string>
+							<key>objectValue</key>
+							<string>#B8C8D1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7526,15 +7538,15 @@ Registration fee for regular and student participants is $250 and $150 prior to 
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextAlign</string>
+							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
-							<string>center</string>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>TextAlign</string>
 							<key>objectValue</key>
-							<string>6px</string>
+							<string>center</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7544,9 +7556,9 @@ Registration fee for regular and student participants is $250 and $150 prior to 
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>2</string>
+							<string>6px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7562,9 +7574,9 @@ Registration fee for regular and student participants is $250 and $150 prior to 
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ExplicitDimensions</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>YES</string>
+							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7709,9 +7721,9 @@ Registration fee for regular and student participants is $250 and $150 prior to 
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7751,15 +7763,15 @@ Registration fee for regular and student participants is $250 and $150 prior to 
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingBottom</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Parent</string>
 							<key>objectValue</key>
 							<string>74</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingBottom</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7799,9 +7811,9 @@ Registration fee for regular and student participants is $250 and $150 prior to 
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7811,9 +7823,9 @@ Registration fee for regular and student participants is $250 and $150 prior to 
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7835,9 +7847,9 @@ Registration fee for regular and student participants is $250 and $150 prior to 
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>74</key>
@@ -7916,6 +7928,61 @@ Registration fee for regular and student participants is $250 and $150 prior to 
 				<string>Scene Symbol 2</string>
 				<key>oid</key>
 				<string>64</string>
+				<key>onSceneDragActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyDownActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyPressActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyUpActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneLoadActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeDownActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeLeftActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeRightActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeUpActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneTimelineCompleteActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneUnloadActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
 				<key>onTopDuringSceneTransition</key>
 				<true/>
 				<key>properties</key>
