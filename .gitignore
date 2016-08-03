@@ -12,6 +12,8 @@ snippets/*
 *.shx
 
 # ignore spreadsheets
+*.doc
+*.docx
 *.xls
 *.xlsx
 *.numbers
