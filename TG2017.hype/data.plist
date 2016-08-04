@@ -9,7 +9,7 @@
 	<key>createOfflineApplicationCache</key>
 	<false/>
 	<key>currentSceneContainer</key>
-	<string>76</string>
+	<string>63</string>
 	<key>customExportSlices</key>
 	<array>
 		<dict>
@@ -46,8 +46,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierAnimated</string>
 		<string>kPropertiesMenuItemIdentifierPosition</string>
+		<string>kPropertiesMenuItemIdentifierAnimated</string>
 	</array>
 	<key>documentVersion</key>
 	<string>530</string>
@@ -161,116 +161,6 @@
 			<key>oid</key>
 			<string>99BF31BF-D492-4FBC-B5C8-EB69C45FFF84-86977-00003DE111773A08</string>
 		</dict>
-		<dict>
-			<key>additionalHeadHTML</key>
-			<string>&lt;link href='https://fonts.googleapis.com/css?family=Lato&amp;subset=latin' rel='stylesheet' type='text/css'&gt;</string>
-			<key>categories</key>
-			<array>
-				<string>Google Fonts</string>
-				<string>Web</string>
-				<string>iOS</string>
-			</array>
-			<key>fontNames</key>
-			<array>
-				<string>Lato</string>
-			</array>
-			<key>fontSource</key>
-			<integer>1</integer>
-			<key>name</key>
-			<string>Lato</string>
-			<key>oid</key>
-			<string>769335B3-8637-4159-954D-F412C66C4292-32791-00005B6ED5F95AA6</string>
-		</dict>
-		<dict>
-			<key>additionalHeadHTML</key>
-			<string>&lt;link href='https://fonts.googleapis.com/css?family=Lato:700&amp;subset=latin' rel='stylesheet' type='text/css'&gt;</string>
-			<key>categories</key>
-			<array>
-				<string>Google Fonts</string>
-				<string>Web</string>
-				<string>iOS</string>
-			</array>
-			<key>fontNames</key>
-			<array>
-				<string>Lato</string>
-			</array>
-			<key>fontSource</key>
-			<integer>1</integer>
-			<key>fontWeightOverride</key>
-			<string>700</string>
-			<key>name</key>
-			<string>Lato (700 Bold)</string>
-			<key>oid</key>
-			<string>B55E518B-868F-42C7-9AA8-2658F2B844AE-32791-00005B7566338985</string>
-		</dict>
-		<dict>
-			<key>additionalHeadHTML</key>
-			<string>&lt;link href='https://fonts.googleapis.com/css?family=Lato:300&amp;subset=latin' rel='stylesheet' type='text/css'&gt;</string>
-			<key>categories</key>
-			<array>
-				<string>Google Fonts</string>
-				<string>Web</string>
-				<string>iOS</string>
-			</array>
-			<key>fontNames</key>
-			<array>
-				<string>Lato</string>
-			</array>
-			<key>fontSource</key>
-			<integer>1</integer>
-			<key>fontWeightOverride</key>
-			<string>300</string>
-			<key>name</key>
-			<string>Lato (300 Book)</string>
-			<key>oid</key>
-			<string>EE18175E-FDE5-4C3C-9DB4-49F65B0581D4-32791-00005B7D1078E23F</string>
-		</dict>
-		<dict>
-			<key>additionalHeadHTML</key>
-			<string>&lt;link href='https://fonts.googleapis.com/css?family=Lato:100italic&amp;subset=latin' rel='stylesheet' type='text/css'&gt;</string>
-			<key>categories</key>
-			<array>
-				<string>Google Fonts</string>
-				<string>Web</string>
-				<string>iOS</string>
-			</array>
-			<key>fontNames</key>
-			<array>
-				<string>Lato</string>
-			</array>
-			<key>fontSource</key>
-			<integer>1</integer>
-			<key>fontStyleOverride</key>
-			<string>italic</string>
-			<key>fontWeightOverride</key>
-			<string>100</string>
-			<key>name</key>
-			<string>Lato (100 Ultra-Light Italic)</string>
-			<key>oid</key>
-			<string>BC3D1905-8050-42D2-8272-389497FD0985-32791-00005B8172CE3C09</string>
-		</dict>
-		<dict>
-			<key>additionalHeadHTML</key>
-			<string>&lt;link href='https://fonts.googleapis.com/css?family=Lato:900&amp;subset=latin' rel='stylesheet' type='text/css'&gt;</string>
-			<key>categories</key>
-			<array>
-				<string>Google Fonts</string>
-				<string>Web</string>
-				<string>iOS</string>
-			</array>
-			<key>fontNames</key>
-			<array>
-				<string>Lato</string>
-			</array>
-			<key>fontSource</key>
-			<integer>1</integer>
-			<key>fontWeightOverride</key>
-			<string>900</string>
-			<key>name</key>
-			<string>Lato (900 Ultra-Bold)</string>
-			<key>oid</key>
-			<string>D665925D-75F3-4AD5-BF10-EFE655AE4EC4-35411-00005E0D32C5A2DD</string>
-		</dict>
 	</array>
 	<key>guidesAreLocked</key>
 	<false/>
@@ -279,17 +169,17 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2016-08-03T23:11:36Z</date>
+	<date>2016-08-03T23:59:11Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>4</integer>
+		<integer>2</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1218, 696}}</string>
+			<string>{{0, 0}, {1280, 741}}</string>
 			<key>identifier</key>
-			<string>container 7</string>
+			<string>container 26</string>
 			<key>isCustomizableViewContainer</key>
 			<true/>
 			<key>isCustomizableViewWrapper</key>
@@ -300,7 +190,7 @@
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {947, 696}}</string>
+					<string>{{0, 0}, {1009, 741}}</string>
 					<key>identifier</key>
 					<string>container 50</string>
 					<key>isCustomizableViewContainer</key>
@@ -313,7 +203,7 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {135, 696}}</string>
+							<string>{{0, 0}, {135, 741}}</string>
 							<key>identifier</key>
 							<string>container 2</string>
 							<key>isCustomizableViewContainer</key>
@@ -326,7 +216,7 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {135, 696}}</string>
+									<string>{{0, 0}, {135, 741}}</string>
 									<key>identifier</key>
 									<string>sceneSelectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -336,7 +226,7 @@
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{136, 0}, {811, 696}}</string>
+							<string>{{136, 0}, {873, 741}}</string>
 							<key>identifier</key>
 							<string>container 5</string>
 							<key>isCustomizableViewContainer</key>
@@ -349,7 +239,7 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 0}, {811, 163}}</string>
+									<string>{{136, 0}, {873, 208}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -362,7 +252,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 0}, {811, 163}}</string>
+											<string>{{136, 0}, {873, 208}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -372,7 +262,7 @@
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 164}, {811, 532}}</string>
+									<string>{{136, 209}, {873, 532}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -385,7 +275,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 164}, {811, 532}}</string>
+											<string>{{136, 209}, {873, 532}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -399,7 +289,7 @@
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{948, 0}, {270, 696}}</string>
+					<string>{{1010, 0}, {270, 741}}</string>
 					<key>identifier</key>
 					<string>container 49</string>
 					<key>isCustomizableViewContainer</key>
@@ -412,7 +302,7 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{948, 0}, {270, 696}}</string>
+							<string>{{1010, 0}, {270, 741}}</string>
 							<key>identifier</key>
 							<string>inspectorCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -469,7 +359,7 @@
 	<key>monotypeProjectID</key>
 	<string>F08A39BB-D3D0-42DE-B9C0-CCFF87E59384-76220-000030AB372FD229</string>
 	<key>oidCounter</key>
-	<integer>83</integer>
+	<integer>88</integer>
 	<key>pageTitle</key>
 	<string>Testing Gravity 2017</string>
 	<key>resourcesInfo</key>
@@ -1000,9 +890,7 @@
 					<key>animationController</key>
 					<dict>
 						<key>expandedItems</key>
-						<array>
-							<string>75</string>
-						</array>
+						<array/>
 						<key>timeCursors</key>
 						<dict>
 							<key>kTimelineDefaultIdentifier</key>
@@ -1012,7 +900,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1083, 1406}</string>
+					<string>{1081, 1406}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -1037,7 +925,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>2</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 193}</string>
+					<string>{0, 523}</string>
 				</dict>
 			</array>
 		</dict>
@@ -1064,7 +952,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1081, 1406}</string>
+					<string>{1164, 1406}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -1116,7 +1004,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1081, 1406}</string>
+					<string>{1164, 1406}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -1141,7 +1029,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>64</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
+					<string>{0, 38.5}</string>
 				</dict>
 			</array>
 		</dict>
@@ -1167,14 +1055,10 @@
 	<key>symbols</key>
 	<array>
 		<dict>
-			<key>currentGroupElement</key>
-			<string>75</string>
 			<key>documentIdentifier</key>
-			<string>99845894-738B-4AF7-80DC-564FBABA0BF2-35411-00005D266787F2A7</string>
+			<string>AE9237D2-DD3D-4BB6-B5E1-AB77F626469F-40008-00005FD998B3302E</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>61</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -1351,9 +1235,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1490,9 +1374,9 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>60</key>
@@ -1505,9 +1389,9 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1626,15 +1510,15 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>472px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>472px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1656,9 +1540,9 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>61</key>
@@ -1671,9 +1555,9 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1797,12 +1681,6 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>2</string>
@@ -1812,6 +1690,12 @@ a:hover, a:active { color: #FF2600 }
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>472px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1833,9 +1717,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>75</key>
@@ -1947,7 +1831,18 @@ a:hover, a:active { color: #FF2600 }
 				<key>onSceneSwipeLeftActionHandler</key>
 				<dict>
 					<key>actions</key>
-					<array/>
+					<array>
+						<dict>
+							<key>duration</key>
+							<real>1.1000000000000001</real>
+							<key>sceneSymbol</key>
+							<integer>1</integer>
+							<key>transition</key>
+							<integer>5</integer>
+							<key>type</key>
+							<integer>1</integer>
+						</dict>
+					</array>
 				</dict>
 				<key>onSceneSwipeRightActionHandler</key>
 				<dict>
@@ -2009,7 +1904,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>99845894-738B-4AF7-80DC-564FBABA0BF2-35411-00005D266787F2A7</string>
+			<string>AE9237D2-DD3D-4BB6-B5E1-AB77F626469F-40008-00005FD998B3302E</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -2026,27 +1921,27 @@ a:hover, a:active { color: #FF2600 }
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#B8C8D1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2164,15 +2059,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#B8C8D1</string>
 						</dict>
 					</array>
 					<key>21</key>
@@ -2559,9 +2454,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2661,15 +2556,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>704px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>704px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2691,9 +2586,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>24</key>
@@ -5647,7 +5542,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>99845894-738B-4AF7-80DC-564FBABA0BF2-35411-00005D266787F2A7</string>
+			<string>AE9237D2-DD3D-4BB6-B5E1-AB77F626469F-40008-00005FD998B3302E</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>58</string>
@@ -5666,27 +5561,27 @@ a:hover, a:active { color: #FF2600 }
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>#B8C8D1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5774,15 +5669,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>1024px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>1024px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5804,15 +5699,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#B8C8D1</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>51</key>
@@ -5888,9 +5783,9 @@ a:hover, a:active { color: #FF2600 }
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>540px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6032,18 +5927,18 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>540px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>53</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1920px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6185,18 +6080,18 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1920px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>54</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>640px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6338,18 +6233,18 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>640px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>55</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1920px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6497,18 +6392,18 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1920px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>56</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>109.9px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6650,18 +6545,18 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>109.9px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>57</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>293px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6803,18 +6698,18 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>293px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>58</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>267px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6956,9 +6851,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>267px</string>
+							<string>div</string>
 						</dict>
 					</array>
 				</dict>
@@ -7074,9 +6969,11 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>99845894-738B-4AF7-80DC-564FBABA0BF2-35411-00005D266787F2A7</string>
+			<string>AE9237D2-DD3D-4BB6-B5E1-AB77F626469F-40008-00005FD998B3302E</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>87</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -7237,208 +7134,6 @@ a:hover, a:active { color: #FF2600 }
 							<string>Symbol</string>
 						</dict>
 					</array>
-					<key>68</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>IFrameURL</string>
-							<key>objectValue</key>
-							<string></string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>OriginalWidth</string>
-							<key>objectValue</key>
-							<string>728px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ConstrainProportions</string>
-							<key>objectValue</key>
-							<string>NO</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleRight</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ScaleY</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>iframe</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleBottom</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Parent</string>
-							<key>objectValue</key>
-							<string>74</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleLeft</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>UserSelect</string>
-							<key>objectValue</key>
-							<string>none</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>736px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>IFrameType</string>
-							<key>objectValue</key>
-							<string>0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>IFrameHTML</string>
-							<key>objectValue</key>
-							<string>&lt;div&gt;
-&lt;canvas id="myCanvas" width="720" height="720"&gt;&lt;/canvas&gt;
-&lt;script&gt;
-var start = new Date('August 1, 2016 00:00:00');
-var early = new Date('November 30, 2016 22:00:00');
-var close = new Date('January 24, 2017 22:00:00');
-var today = new Date();
-
-var latefee = Math.min(Math.max(0.0, (early.getTime()-start.getTime()) / (close.getTime()-start.getTime() + 0.0)), 1.0)
-var elapsed = Math.min(Math.max(0.0, (today.getTime()-start.getTime()) / (close.getTime()-start.getTime() + 0.0)), 1.0)
-
-var canvas = document.getElementById('myCanvas');
-var context = canvas.getContext('2d');
-var x = canvas.width / 2;
-var y = canvas.height / 2;
-var r = Math.min(x,y) * 4 / 5;
-var a = 0.75 * Math.PI;
-var b = 2.25 * Math.PI;
-var c = a + elapsed*(b-a);
-var d = a + latefee*(b-a);
-var counterClockwise = false;
-
-// gauge extent
-context.beginPath();
-context.arc(x, y, r, a, b, counterClockwise);
-context.lineWidth = 32;
-context.strokeStyle = '#EBEBEB';
-context.stroke();
-
-// late fee extent
-context.beginPath();
-context.arc(x, y, r, d, b, counterClockwise);
-context.lineWidth = 32;
-context.strokeStyle = (c &gt; d) ? '#FF2600' : '#FFEBEB';
-context.stroke();
-
-// elapsed extent
-context.beginPath();
-context.arc(x, y, r, a, c, counterClockwise);
-context.strokeStyle = '#B8C8D1';
-context.stroke();
-&lt;/script&gt;
-&lt;/div&gt;
-</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AutoresizingMask</string>
-							<key>objectValue</key>
-							<string>37</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ScaleX</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleTop</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>728px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>hidden</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>HTML Widget</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>OriginalHeight</string>
-							<key>objectValue</key>
-							<string>736px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-					</array>
 					<key>69</key>
 					<array>
 						<dict>
@@ -7455,9 +7150,9 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7559,15 +7254,15 @@ The registration fee is $250 for regular and $150 for student participants if pa
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>11</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>6</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7595,9 +7290,9 @@ The registration fee is $250 for regular and $150 for student participants if pa
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>70</key>
@@ -7636,7 +7331,7 @@ The registration fee is $250 for regular and $150 for student participants if pa
 							<key>identifier</key>
 							<string>Parent</string>
 							<key>objectValue</key>
-							<string>74</string>
+							<string>87</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7738,7 +7433,7 @@ The registration fee is $250 for regular and $150 for student participants if pa
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>326px</string>
+							<string>297px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7846,7 +7541,7 @@ The registration fee is $250 for regular and $150 for student participants if pa
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>204px</string>
+							<string>200px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7907,9 +7602,9 @@ The registration fee is $250 for regular and $150 for student participants if pa
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7945,13 +7640,13 @@ The registration fee is $250 for regular and $150 for student participants if pa
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>502px</string>
+							<string>473px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Parent</string>
 							<key>objectValue</key>
-							<string>74</string>
+							<string>87</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7981,7 +7676,7 @@ The registration fee is $250 for regular and $150 for student participants if pa
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>255px</string>
+							<string>251px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8003,15 +7698,15 @@ The registration fee is $250 for regular and $150 for student participants if pa
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>201px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>3</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>201px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8033,18 +7728,214 @@ The registration fee is $250 for regular and $150 for student participants if pa
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>TextColor</string>
+							<key>objectValue</key>
+							<string>#000000</string>
+						</dict>
+					</array>
+					<key>86</key>
+					<array>
+						<dict>
+							<key>identifier</key>
 							<string>TagName</string>
 							<key>objectValue</key>
 							<string>div</string>
 						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthBottom</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleRight</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Rectangle</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleBottom</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthRight</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleLeft</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorLeft</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorTop</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Parent</string>
+							<key>objectValue</key>
+							<string>87</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>720px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorRight</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string>&lt;div&gt;
+&lt;canvas id="myCanvas" width="720" height="720"&gt;&lt;/canvas&gt;
+&lt;script&gt;
+var start = new Date('August 1, 2016 00:00:00');
+var early = new Date('November 30, 2016 22:00:00');
+var close = new Date('January 24, 2017 22:00:00');
+var today = new Date();
+
+var latefee = Math.min(Math.max(0.0, (early.getTime()-start.getTime()) / (close.getTime()-start.getTime() + 0.0)), 1.0)
+var elapsed = Math.min(Math.max(0.0, (today.getTime()-start.getTime()) / (close.getTime()-start.getTime() + 0.0)), 1.0)
+
+var canvas = document.getElementById('myCanvas');
+var context = canvas.getContext('2d');
+var x = canvas.width / 2;
+var y = canvas.height / 2;
+var r = Math.min(x,y) * 4 / 5;
+var a = 0.75 * Math.PI;
+var b = 2.25 * Math.PI;
+var c = a + elapsed*(b-a);
+var d = a + latefee*(b-a);
+var counterClockwise = false;
+
+// gauge extent
+context.beginPath();
+context.arc(x, y, r, a, b, counterClockwise);
+context.lineWidth = 32;
+context.strokeStyle = '#EBEBEB';
+context.stroke();
+
+// late fee extent
+context.beginPath();
+context.arc(x, y, r, d, b, counterClockwise);
+context.lineWidth = 32;
+context.strokeStyle = (c &gt; d) ? '#FF2600' : '#FFEBEB';
+context.stroke();
+
+// elapsed extent
+context.beginPath();
+context.arc(x, y, r, a, c, counterClockwise);
+context.strokeStyle = '#B8C8D1';
+context.stroke();
+&lt;/script&gt;
+&lt;/div&gt;
+</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleTop</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>720px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthTop</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>Rectangle</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthLeft</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
 					</array>
-					<key>74</key>
+					<key>87</key>
 					<array>
 						<dict>
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>736px</string>
+							<string>720px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8068,13 +7959,13 @@ The registration fee is $250 for regular and $150 for student participants if pa
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>279px</string>
+							<string>308px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>148px</string>
+							<string>152px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8092,7 +7983,7 @@ The registration fee is $250 for regular and $150 for student participants if pa
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>728px</string>
+							<string>720px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8152,7 +8043,18 @@ The registration fee is $250 for regular and $150 for student participants if pa
 				<key>onSceneSwipeRightActionHandler</key>
 				<dict>
 					<key>actions</key>
-					<array/>
+					<array>
+						<dict>
+							<key>duration</key>
+							<real>1.1000000000000001</real>
+							<key>sceneSymbol</key>
+							<integer>2</integer>
+							<key>transition</key>
+							<integer>4</integer>
+							<key>type</key>
+							<integer>1</integer>
+						</dict>
+					</array>
 				</dict>
 				<key>onSceneSwipeUpActionHandler</key>
 				<dict>
@@ -8373,7 +8275,7 @@ The registration fee is $250 for regular and $150 for student participants if pa
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>99845894-738B-4AF7-80DC-564FBABA0BF2-35411-00005D266787F2A7</string>
+			<string>AE9237D2-DD3D-4BB6-B5E1-AB77F626469F-40008-00005FD998B3302E</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>83</string>
@@ -8610,7 +8512,9 @@ The registration fee is $250 for regular and $150 for student participants if pa
 							<key>identifier</key>
 							<string>IFrameHTML</string>
 							<key>objectValue</key>
-							<string>&lt;style type="text/css"&gt;
+							<string>&lt;link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"&gt;
+
+&lt;style type="text/css"&gt;
 &lt;!--
 .solid { width: 25%; background: #B8C8D1; }
 .plain { width: 25%; background: #FFFFFF; }
@@ -8786,12 +8690,34 @@ The registration fee is $250 for regular and $150 for student participants if pa
 				<key>onSceneSwipeLeftActionHandler</key>
 				<dict>
 					<key>actions</key>
-					<array/>
+					<array>
+						<dict>
+							<key>duration</key>
+							<real>1.1000000000000001</real>
+							<key>sceneSymbol</key>
+							<integer>1</integer>
+							<key>transition</key>
+							<integer>5</integer>
+							<key>type</key>
+							<integer>1</integer>
+						</dict>
+					</array>
 				</dict>
 				<key>onSceneSwipeRightActionHandler</key>
 				<dict>
 					<key>actions</key>
-					<array/>
+					<array>
+						<dict>
+							<key>duration</key>
+							<real>1.1000000000000001</real>
+							<key>sceneSymbol</key>
+							<integer>2</integer>
+							<key>transition</key>
+							<integer>4</integer>
+							<key>type</key>
+							<integer>1</integer>
+						</dict>
+					</array>
 				</dict>
 				<key>onSceneSwipeUpActionHandler</key>
 				<dict>
