@@ -9,7 +9,7 @@
 	<key>createOfflineApplicationCache</key>
 	<false/>
 	<key>currentSceneContainer</key>
-	<string>63</string>
+	<string>1</string>
 	<key>customExportSlices</key>
 	<array>
 		<dict>
@@ -46,8 +46,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierAnimated</string>
 		<string>kPropertiesMenuItemIdentifierPosition</string>
+		<string>kPropertiesMenuItemIdentifierAnimated</string>
 	</array>
 	<key>documentVersion</key>
 	<string>530</string>
@@ -169,7 +169,7 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2016-08-04T00:06:57Z</date>
+	<date>2016-08-04T17:40:02Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -900,7 +900,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1081, 1406}</string>
+					<string>{1164, 1406}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -925,7 +925,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>2</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 523}</string>
+					<string>{0, 0}</string>
 				</dict>
 			</array>
 		</dict>
@@ -1056,7 +1056,7 @@
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>5BD4C5D7-6F9F-407C-BE17-7D6BDB38C661-42616-00006125F0B12F50</string>
+			<string>15675FDD-420A-4286-A79F-6FBBE037FBD9-56394-00006B67CCA90245</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -1235,9 +1235,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1374,9 +1374,9 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>60</key>
@@ -1389,9 +1389,9 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1510,15 +1510,15 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>472px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>472px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1540,9 +1540,9 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>61</key>
@@ -1555,9 +1555,9 @@ Testing Gravity 2017 is the 2nd Testing Gravity conference hosted by SFU bringin
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1681,12 +1681,6 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>2</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
@@ -1696,6 +1690,12 @@ a:hover, a:active { color: #FF2600 }
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>472px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1717,9 +1717,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>75</key>
@@ -1904,7 +1904,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>5BD4C5D7-6F9F-407C-BE17-7D6BDB38C661-42616-00006125F0B12F50</string>
+			<string>15675FDD-420A-4286-A79F-6FBBE037FBD9-56394-00006B67CCA90245</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -1921,27 +1921,27 @@ a:hover, a:active { color: #FF2600 }
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#B8C8D1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2059,15 +2059,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#B8C8D1</string>
 						</dict>
 					</array>
 					<key>21</key>
@@ -2454,9 +2454,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2556,15 +2556,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>704px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>704px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2586,9 +2586,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>24</key>
@@ -5542,7 +5542,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>5BD4C5D7-6F9F-407C-BE17-7D6BDB38C661-42616-00006125F0B12F50</string>
+			<string>15675FDD-420A-4286-A79F-6FBBE037FBD9-56394-00006B67CCA90245</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>58</string>
@@ -5561,27 +5561,27 @@ a:hover, a:active { color: #FF2600 }
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>#B8C8D1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5669,15 +5669,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>1024px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5699,15 +5699,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#B8C8D1</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>51</key>
@@ -5783,9 +5783,9 @@ a:hover, a:active { color: #FF2600 }
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>540px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5927,18 +5927,18 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>540px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>53</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1920px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6080,18 +6080,18 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1920px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>54</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>640px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6233,18 +6233,18 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>640px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>55</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1920px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6392,18 +6392,18 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1920px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>56</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>109.9px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6545,18 +6545,18 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>109.9px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>57</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>293px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6698,18 +6698,18 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>293px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>58</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>267px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6851,9 +6851,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>267px</string>
+							<string>div</string>
 						</dict>
 					</array>
 				</dict>
@@ -6969,7 +6969,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>5BD4C5D7-6F9F-407C-BE17-7D6BDB38C661-42616-00006125F0B12F50</string>
+			<string>15675FDD-420A-4286-A79F-6FBBE037FBD9-56394-00006B67CCA90245</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -7148,9 +7148,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7252,15 +7252,15 @@ The registration fee is $250 for regular and $150 for student participants if pa
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>15</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>15</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7288,9 +7288,9 @@ The registration fee is $250 for regular and $150 for student participants if pa
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>70</key>
@@ -7600,9 +7600,9 @@ The registration fee is $250 for regular and $150 for student participants if pa
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7696,15 +7696,15 @@ The registration fee is $250 for regular and $150 for student participants if pa
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>201px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>201px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7726,30 +7726,30 @@ The registration fee is $250 for regular and $150 for student participants if pa
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>86</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7886,15 +7886,15 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>720px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>720px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7916,15 +7916,15 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>0px</string>
 						</dict>
 					</array>
 					<key>89</key>
@@ -8273,11 +8273,9 @@ context.stroke();
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>5BD4C5D7-6F9F-407C-BE17-7D6BDB38C661-42616-00006125F0B12F50</string>
+			<string>15675FDD-420A-4286-A79F-6FBBE037FBD9-56394-00006B67CCA90245</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>83</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -8448,9 +8446,9 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>OriginalHeight</string>
 							<key>objectValue</key>
-							<string>992px</string>
+							<string>1045px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8544,16 +8542,16 @@ context.stroke();
     &lt;span class="title"&gt;Introduction from organizers&lt;/span&gt;&lt;p&gt;
     &lt;span class="time"&gt;09:15-10:30&lt;/span&gt; &lt;span class="speaker"&gt;Invited Talks&lt;/span&gt;
 &lt;td&gt;&lt;span class="time"&gt;09:00-10:30&lt;/span&gt; &lt;span class="speaker"&gt;Invited Talks&lt;/span&gt;
-&lt;td&gt;&lt;span class="time"&gt;09:30-10:30&lt;/span&gt; &lt;span class="speaker"&gt;Contributed Talks&lt;/span&gt;
+&lt;td&gt;&lt;span class="time"&gt;09:30-10:30&lt;/span&gt; &lt;span class="speaker"&gt;Invited &amp; Contributed Talks&lt;/span&gt;
 
 &lt;tr class="solid" style="height: 5px;"&gt;&lt;th&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;
 
 &lt;tr class="plain" style="height: 13em;"&gt;
 &lt;td&gt;&lt;span class="time"&gt;11:00-12:30&lt;/span&gt; &lt;span class="speaker"&gt;Lecture 2&lt;/span&gt;&lt;br&gt;
     &lt;span class="title"&gt;Gravity waves&lt;/span&gt;
-&lt;td&gt;&lt;span class="time"&gt;11:00-12:30&lt;/span&gt; &lt;span class="speaker"&gt;Contributed Talks&lt;/span&gt;
-&lt;td&gt;&lt;span class="time"&gt;11:00-12:30&lt;/span&gt; &lt;span class="speaker"&gt;Contributed Talks&lt;/span&gt;
-&lt;td&gt;&lt;span class="time"&gt;11:00-12:30&lt;/span&gt; &lt;span class="speaker"&gt;Contributed Talks&lt;/span&gt;&lt;br&gt;
+&lt;td&gt;&lt;span class="time"&gt;11:00-12:30&lt;/span&gt; &lt;span class="speaker"&gt;Invited &amp; Contributed Talks&lt;/span&gt;
+&lt;td&gt;&lt;span class="time"&gt;11:00-12:30&lt;/span&gt; &lt;span class="speaker"&gt;Invited &amp; Contributed Talks&lt;/span&gt;
+&lt;td&gt;&lt;span class="time"&gt;11:00-12:30&lt;/span&gt; &lt;span class="speaker"&gt;Invited &amp; Contributed Talks&lt;/span&gt;&lt;br&gt;
 
 &lt;tr class="solid" style="height: 2.5em;"&gt;
 &lt;th&gt;&lt;span class="heading"&gt;Lunch Break&lt;/span&gt;&lt;br&gt;
@@ -8568,17 +8566,17 @@ context.stroke();
 &lt;tr class="plain" style="height: 13em;"&gt;
 &lt;td&gt;&lt;span class="time"&gt;13:30-15:00&lt;/span&gt; &lt;span class="speaker"&gt;Lecture 3&lt;/span&gt;&lt;br&gt;
     &lt;span class="title"&gt;Cosmology&lt;/span&gt;
-&lt;td&gt;&lt;span class="time"&gt;13:30-15:00&lt;/span&gt; &lt;span class="speaker"&gt;Contributed Talks&lt;/span&gt;
-&lt;td&gt;&lt;span class="time"&gt;13:30-15:00&lt;/span&gt; &lt;span class="speaker"&gt;Contributed Talks&lt;/span&gt;
-&lt;td&gt;&lt;span class="time"&gt;13:30-15:00&lt;/span&gt; &lt;span class="speaker"&gt;Contributed Talks&lt;/span&gt;&lt;br&gt;
+&lt;td&gt;&lt;span class="time"&gt;13:30-15:00&lt;/span&gt; &lt;span class="speaker"&gt;Invited &amp; Contributed Talks&lt;/span&gt;
+&lt;td&gt;&lt;span class="time"&gt;13:30-15:00&lt;/span&gt; &lt;span class="speaker"&gt;Invited &amp; Contributed Talks&lt;/span&gt;
+&lt;td&gt;&lt;span class="time"&gt;13:30-15:00&lt;/span&gt; &lt;span class="speaker"&gt;Invited &amp; Contributed Talks&lt;/span&gt;&lt;br&gt;
 
 &lt;tr class="solid" style="height: 5px;"&gt;&lt;th&gt;&lt;td&gt;&lt;td&gt;&lt;td&gt;
 
 &lt;tr class="plain" style="height: 13em;"&gt;
 &lt;td&gt;&lt;span class="time"&gt;15:30-17:00&lt;/span&gt; &lt;span class="speaker"&gt;Lecture 4&lt;/span&gt;&lt;br&gt;
     &lt;span class="title"&gt;Alternative theories of gravity&lt;/span&gt;
-&lt;td&gt;&lt;span class="time"&gt;15:30-17:00&lt;/span&gt; &lt;span class="speaker"&gt;Short Talks&lt;/span&gt;
-&lt;td&gt;&lt;span class="time"&gt;15:30-17:00&lt;/span&gt; &lt;span class="speaker"&gt;Contributed Talks&lt;/span&gt;
+&lt;td&gt;&lt;span class="time"&gt;15:30-18:00&lt;/span&gt; &lt;span class="speaker"&gt;Short Talks&lt;/span&gt;
+&lt;td&gt;&lt;span class="time"&gt;15:30-18:00&lt;/span&gt; &lt;span class="speaker"&gt;Invited &amp; Contributed Talks&lt;/span&gt;
 &lt;th&gt;&lt;span class="heading"&gt;Workshop Ends&lt;/span&gt;&lt;br&gt;
 
 &lt;tr class="solid" style="height: 2.5em;"&gt;
@@ -8643,9 +8641,9 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalHeight</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>1045px</string>
+							<string>992px</string>
 						</dict>
 					</array>
 				</dict>
