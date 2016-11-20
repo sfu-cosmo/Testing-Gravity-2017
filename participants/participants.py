@@ -45,6 +45,7 @@ def mangle(affiliation):
 	affiliation = re.sub(r"Perimeter.*", 'Perimeter', affiliation)
 	affiliation = re.sub(r"Yukawa Institute for Theoretical Physics", 'YITP', affiliation)
 	affiliation = re.sub(r"Tokyo University of Science", 'TUS', affiliation)
+	affiliation = re.sub(r"National Astronomical Observatory of Japan", 'NAOJ', affiliation)
 	affiliation = re.sub(r"Lebedev.*", 'Lebedev', affiliation)
 	affiliation = re.sub(r".*\(IKI\).*", 'IKI', affiliation)
 	affiliation = re.sub(r"ITA - Aeronautics Institute of Technology", 'ITA', affiliation)
