@@ -21,7 +21,7 @@ participants = [
 	["Percival", "Will", "ICG, Portsmouth"],
 	["Pospelov", "Maxim", "Victoria/Perimeter"],
 	["Pretorius", "Frans", "Princeton University"],
-	["Rham", "Claudia de", "Case Western Reserve University"],
+	["Rham", "Claudia de", "Imperial College"],
 	["Sasaki", "Misao", "Yukawa Institute for Theoretical Physics"],
 	["Trodden", "Mark", "University of Pennsylvania"],
 	["White", "Martin", "University of California, Berkeley"],
@@ -40,6 +40,7 @@ def mangle(affiliation):
 	affiliation = re.sub(r"California Institut?e of Technology", 'Caltech', affiliation)
 	affiliation = re.sub(r"California State University", 'CSU', affiliation)
 	affiliation = re.sub(r"University of California(,|\s+at)?", 'UC', affiliation)
+	affiliation = re.sub(r"(The\s+)?University of Texas(,|\s+at)?", 'UT', affiliation)
 	affiliation = re.sub(r"University of Pennsylvania", 'UPenn', affiliation)
 	affiliation = re.sub(r"Case Western Reserve", 'Case Western', affiliation)
 	affiliation = re.sub(r"Perimeter.*", 'Perimeter', affiliation)
