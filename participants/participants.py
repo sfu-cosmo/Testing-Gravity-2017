@@ -85,6 +85,10 @@ for p in itertools.groupby(participants):
 	if last == "Ottewill": affiliation = "UCD"
 	if last == "Saida": affiliation = "Daido University"
 	if last == "Tsujikawa": affiliation = "Tokyo University of Science"
+	if last == "Tanahashi": affiliation = "DAMTP"
+	if last == "Nielsen": affiliation = "MPI"
+	if last == "Menary": affiliation = "York University"
+	if last == "Galvez": affiliation = "Simon Fraser University"
 	if last == "JULIÉ": last = "Julié"
 	if last == "de Rham": continue
 	
