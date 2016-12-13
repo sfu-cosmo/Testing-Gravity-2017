@@ -36,6 +36,7 @@ def mangle(affiliation):
 	affiliation = re.sub(r"Royal Astronomical Society", 'RASC', affiliation)
 	affiliation = re.sub(r"University of British Columbia", 'UBC', affiliation)
 	affiliation = re.sub(r"Simon Fraser (U|u)niversity", 'SFU', affiliation)
+	affiliation = re.sub(r"Canadian Institute for Theoretical Astrophysics", 'CITA', affiliation)
 	affiliation = re.sub(r"Memorial University of Newfoundland", 'Memorial', affiliation)
 	affiliation = re.sub(r"California Institut?e of Technology", 'Caltech', affiliation)
 	affiliation = re.sub(r"California State University", 'CSU', affiliation)
@@ -44,6 +45,7 @@ def mangle(affiliation):
 	affiliation = re.sub(r"University of Pennsylvania", 'UPenn', affiliation)
 	affiliation = re.sub(r"Case Western Reserve", 'Case Western', affiliation)
 	affiliation = re.sub(r"Perimeter.*", 'Perimeter', affiliation)
+	affiliation = re.sub(r"ONERA, France", 'ONERA', affiliation)
 	affiliation = re.sub(r"Yukawa Institute for Theoretical Physics", 'YITP', affiliation)
 	affiliation = re.sub(r"Tokyo University of Science", 'TUS', affiliation)
 	affiliation = re.sub(r"National Astronomical Observatory of Japan", 'NAOJ', affiliation)
@@ -70,9 +72,9 @@ def chunker(n, array, padvalue=None):
 
 with open('participants.csv', 'rU') as csvfile:
 	for row in csv.reader(csvfile, dialect=csv.excel):
-		if row[28].lower() != 'yes': continue
-		if row[4] in [p[0] for p in participants]: continue
-		participants.append(row[4:7])
+		if row[27].lower() != 'yes': continue
+		if row[3].lower() in [p[0].lower() for p in participants]: continue
+		participants.append(row[3:6])
 
 participants.sort(key = lambda p: p[0])
 
@@ -81,6 +83,9 @@ for p in itertools.groupby(participants):
 	
 	# fix stuff for people who cannot spell
 	if last == "Lebed": affiliation = "University of Arizona"
+	if last == "Afshordi": affiliation = "Perimeter Institute"
+	if last == "Baryakhtar": affiliation = "Perimeter Institute"
+	if last == "Halenka": affiliation = "University of Michigan"
 	if last == "Steer": affiliation = "APC, Paris"
 	if last == "Ottewill": affiliation = "UCD"
 	if last == "Saida": affiliation = "Daido University"
@@ -89,8 +94,16 @@ for p in itertools.groupby(participants):
 	if last == "Nielsen": affiliation = "MPI"
 	if last == "Menary": affiliation = "York University"
 	if last == "Galvez": affiliation = "Simon Fraser University"
+	if last == "Kunstatter": affiliation = "University of Winnipeg"
+	if last == "Vikman": affiliation = "FZU"
+	if last == "Rapetti": affiliation = "Boulder/NASA Ames"
+	if last == "Deffayet": affiliation = "CNRS"
 	if last == "JULIÉ": last = "Julié"
+	if last == "SACHDEVA":
+		first = "Tarun";last = "Sachdeva"
+		affiliation = "Thapar University"
 	if last == "de Rham": continue
+	
 	
 	# abbreviate name if it is too long
 	if (len(first+last) > 24):
