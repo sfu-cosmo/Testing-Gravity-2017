@@ -72,9 +72,9 @@ def chunker(n, array, padvalue=None):
 
 with open('participants.csv', 'rU') as csvfile:
 	for row in csv.reader(csvfile, dialect=csv.excel):
-		if row[27].lower() != 'yes': continue
-		if row[3].lower() in [p[0].lower() for p in participants]: continue
-		participants.append(row[3:6])
+		if row[28].lower() != 'yes': continue
+		if row[4].lower() in [p[0].lower() for p in participants]: continue
+		participants.append(row[4:7])
 
 participants.sort(key = lambda p: p[0])
 
