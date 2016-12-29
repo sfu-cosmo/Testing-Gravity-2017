@@ -169,7 +169,7 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2016-12-20T01:17:22Z</date>
+	<date>2016-12-29T02:05:16Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -177,7 +177,7 @@
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1280, 741}}</string>
+			<string>{{0, 0}, {1024, 664}}</string>
 			<key>identifier</key>
 			<string>container 26</string>
 			<key>isCustomizableViewContainer</key>
@@ -190,7 +190,7 @@
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {1009, 741}}</string>
+					<string>{{0, 0}, {753, 664}}</string>
 					<key>identifier</key>
 					<string>container 50</string>
 					<key>isCustomizableViewContainer</key>
@@ -203,7 +203,7 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {135, 741}}</string>
+							<string>{{0, 0}, {135, 664}}</string>
 							<key>identifier</key>
 							<string>container 2</string>
 							<key>isCustomizableViewContainer</key>
@@ -216,7 +216,7 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {135, 741}}</string>
+									<string>{{0, 0}, {135, 664}}</string>
 									<key>identifier</key>
 									<string>sceneSelectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -226,7 +226,7 @@
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{136, 0}, {873, 741}}</string>
+							<string>{{136, 0}, {617, 664}}</string>
 							<key>identifier</key>
 							<string>container 5</string>
 							<key>isCustomizableViewContainer</key>
@@ -239,7 +239,7 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 0}, {873, 240}}</string>
+									<string>{{136, 0}, {617, 163}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -252,7 +252,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 0}, {873, 240}}</string>
+											<string>{{136, 0}, {617, 163}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -262,7 +262,7 @@
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 241}, {873, 500}}</string>
+									<string>{{136, 164}, {617, 500}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -275,7 +275,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 241}, {873, 500}}</string>
+											<string>{{136, 164}, {617, 500}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -289,7 +289,7 @@
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{1010, 0}, {270, 741}}</string>
+					<string>{{754, 0}, {270, 664}}</string>
 					<key>identifier</key>
 					<string>container 49</string>
 					<key>isCustomizableViewContainer</key>
@@ -302,7 +302,7 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{1010, 0}, {270, 741}}</string>
+							<string>{{754, 0}, {270, 664}}</string>
 							<key>identifier</key>
 							<string>inspectorCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -1204,7 +1204,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1164, 1406}</string>
+					<string>{1064, 1406}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -1229,7 +1229,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>120</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
+					<string>{169.5, 477}</string>
 				</dict>
 			</array>
 		</dict>
@@ -1466,7 +1466,7 @@
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>656C0C43-B623-4CD4-9D5B-8CA055F42274-10667-000077149958A530</string>
+			<string>81B93D35-010B-4DFD-9F40-8E77AB359517-21759-0000A928A37B2EEF</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>98</string>
@@ -1930,9 +1930,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1942,9 +1942,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2108,15 +2108,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>2</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2811,7 +2811,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>656C0C43-B623-4CD4-9D5B-8CA055F42274-10667-000077149958A530</string>
+			<string>81B93D35-010B-4DFD-9F40-8E77AB359517-21759-0000A928A37B2EEF</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -2936,15 +2936,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>1024px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>2</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>1024px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3472,9 +3472,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3484,9 +3484,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6515,7 +6515,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>656C0C43-B623-4CD4-9D5B-8CA055F42274-10667-000077149958A530</string>
+			<string>81B93D35-010B-4DFD-9F40-8E77AB359517-21759-0000A928A37B2EEF</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -6640,15 +6640,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>1024px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7968,7 +7968,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>656C0C43-B623-4CD4-9D5B-8CA055F42274-10667-000077149958A530</string>
+			<string>81B93D35-010B-4DFD-9F40-8E77AB359517-21759-0000A928A37B2EEF</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -8251,15 +8251,15 @@ The registration fee is $250 for regular and $150 for student participants if pa
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>15</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>15</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8689,9 +8689,9 @@ The registration fee is $250 for regular and $150 for student participants if pa
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8701,9 +8701,9 @@ The registration fee is $250 for regular and $150 for student participants if pa
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8734,7 +8734,7 @@ The registration fee is $250 for regular and $150 for student participants if pa
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
@@ -8885,15 +8885,15 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>720px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>720px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8915,7 +8915,7 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
@@ -9744,7 +9744,7 @@ context.stroke();
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>656C0C43-B623-4CD4-9D5B-8CA055F42274-10667-000077149958A530</string>
+			<string>81B93D35-010B-4DFD-9F40-8E77AB359517-21759-0000A928A37B2EEF</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -10243,7 +10243,7 @@ context.stroke();
 			<key>currentGroupElement</key>
 			<string>118</string>
 			<key>documentIdentifier</key>
-			<string>656C0C43-B623-4CD4-9D5B-8CA055F42274-10667-000077149958A530</string>
+			<string>81B93D35-010B-4DFD-9F40-8E77AB359517-21759-0000A928A37B2EEF</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>128</string>
@@ -10395,15 +10395,15 @@ BC Ferries runs several regular &lt;a href="http://www.bcferries.com/schedules/m
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10552,9 +10552,9 @@ The meeting will take place in the &lt;a href="http://www.sfu.ca/mecs/facilities
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>2</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10564,9 +10564,9 @@ The meeting will take place in the &lt;a href="http://www.sfu.ca/mecs/facilities
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10725,15 +10725,15 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>3</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -13346,7 +13346,7 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>656C0C43-B623-4CD4-9D5B-8CA055F42274-10667-000077149958A530</string>
+			<string>81B93D35-010B-4DFD-9F40-8E77AB359517-21759-0000A928A37B2EEF</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -13636,10 +13636,10 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 &lt;/li&gt;&lt;li&gt;Vitali Halenka (Michigan)
 &lt;/li&gt;&lt;li&gt;Jeremy Heyl (UBC)
 &lt;/li&gt;&lt;li&gt;Kouichirou Horiguchi (Nagoya)
+&lt;/li&gt;&lt;li&gt;Lam Hui (Columbia)
 &lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;
 &lt;td style="width: 30%;"&gt;&lt;ul&gt;
-&lt;li&gt;Lam Hui (Columbia)
-&lt;/li&gt;&lt;li&gt;Henri Inchauspé (ONERA)
+&lt;li&gt;Henri Inchauspé (ONERA)
 &lt;/li&gt;&lt;li&gt;Mustapha Ishak (UT Dallas)
 &lt;/li&gt;&lt;li&gt;Félix-Louis Julié (APC, Paris)
 &lt;/li&gt;&lt;li&gt;Bhuvnesh Jain (UPenn)
@@ -13667,11 +13667,11 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 &lt;/li&gt;&lt;li&gt;Maxim Pospelov (Victoria/Perimeter)
 &lt;/li&gt;&lt;li&gt;Frans Pretorius (Princeton)
 &lt;/li&gt;&lt;li&gt;Dimitrios Psaltis (Arizona)
+&lt;/li&gt;&lt;li&gt;David Rapetti (Boulder/NASA Ames)
+&lt;/li&gt;&lt;li&gt;Graham Reid (UBC)
 &lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;
 &lt;td style="width: 30%;"&gt;&lt;ul&gt;
-&lt;li&gt;David Rapetti (Boulder/NASA Ames)
-&lt;/li&gt;&lt;li&gt;Graham Reid (UBC)
-&lt;/li&gt;&lt;li&gt;Janina Renk (Stockholm)
+&lt;li&gt;Janina Renk (Stockholm)
 &lt;/li&gt;&lt;li&gt;Claudia de Rham (Imperial College)
 &lt;/li&gt;&lt;li&gt;Tarun Sachdeva (Thapar)
 &lt;/li&gt;&lt;li&gt;Hiromi Saida (Daido)
@@ -13695,6 +13695,7 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 &lt;/li&gt;&lt;li&gt;Martin White (UC Berkeley)
 &lt;/li&gt;&lt;li&gt;Matthew Wilde (Washington)
 &lt;/li&gt;&lt;li&gt;Kent Yagi (Princeton)
+&lt;/li&gt;&lt;li&gt;Yasuho Yamashita (YITP)
 &lt;/li&gt;&lt;li&gt;Zeeshan Yousaf (Punjab)
 &lt;/li&gt;&lt;li&gt;Aaron Zimmerman (CITA)
 &lt;/li&gt;&lt;li&gt;Alex Zucca (SFU)
@@ -13707,9 +13708,9 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>4</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -13719,9 +13720,9 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -13861,7 +13862,7 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>656C0C43-B623-4CD4-9D5B-8CA055F42274-10667-000077149958A530</string>
+			<string>81B93D35-010B-4DFD-9F40-8E77AB359517-21759-0000A928A37B2EEF</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -14317,15 +14318,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>5</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>

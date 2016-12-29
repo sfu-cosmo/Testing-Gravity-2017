@@ -98,6 +98,7 @@ for p in itertools.groupby(participants):
 	if last == "Vikman": affiliation = "FZU"
 	if last == "Rapetti": affiliation = "Boulder/NASA Ames"
 	if last == "Deffayet": affiliation = "CNRS"
+	if last == "Yamashita": affiliation = "Yukawa Institute for Theoretical Physics"
 	if last == "JULIÉ": last = "Julié"
 	if last == "SACHDEVA":
 		first = "Tarun";last = "Sachdeva"
