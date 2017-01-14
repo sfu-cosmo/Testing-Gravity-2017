@@ -94,6 +94,8 @@ for p in itertools.groupby(participants):
 	if last == "Nielsen": affiliation = "MPI"
 	if last == "Menary": affiliation = "York University"
 	if last == "Galvez": affiliation = "Simon Fraser University"
+	if last == "Frick": affiliation = "Simon Fraser University"
+	if last == "Medvedova": affiliation = "Simon Fraser University"
 	if last == "Kunstatter": affiliation = "University of Winnipeg"
 	if last == "Vikman": affiliation = "FZU"
 	if last == "Rapetti": affiliation = "Boulder/NASA Ames"
@@ -103,8 +105,7 @@ for p in itertools.groupby(participants):
 	if last == "SACHDEVA":
 		first = "Tarun";last = "Sachdeva"
 		affiliation = "Thapar University"
-	if last == "de Rham": continue
-	
+	if last == "de Rham": continue	
 	
 	# abbreviate name if it is too long
 	if (len(first+last) > 24):
