@@ -3,6 +3,10 @@
 
 import re, csv
 import itertools
+from sys import argv
+
+assert len(argv) > 1, "Specify output format as html, tags, or list..."
+output = argv[1]
 
 participants = [
 	# invited speakers
@@ -17,7 +21,7 @@ participants = [
 	["Joyce", "Austin", "Columbia University"],
 	["Khoury", "Justin", "University of Pennsylvania"],
 	["Maartens", "Roy", "University of Western Cape"],
-	["Muller" ,"Holger", "University of California, Berkeley"],
+	["Mueller", "Holger", "University of California, Berkeley"],
 	["Percival", "Will", "ICG, Portsmouth"],
 	["Pospelov", "Maxim", "Victoria/Perimeter"],
 	["Pretorius", "Frans", "Princeton University"],
@@ -29,6 +33,9 @@ participants = [
   	["Frolov", "Andrei", "Simon Fraser University"],
   	["Pogosian", "Levon", "Simon Fraser University"],
 ]
+
+soc = ["Frolov", "Fujiwara", "Pogosian", "Pospelov", "Psaltis", "Scott"]
+loc = ["Contreras", "Frick", "Galvez", "Medvedova", "Pinsonneault-Marotte", "Pogosian"]
 
 table = []
 
@@ -48,7 +55,10 @@ def mangle(affiliation):
 	affiliation = re.sub(r"ONERA, France", 'ONERA', affiliation)
 	affiliation = re.sub(r"Yukawa Institute for Theoretical Physics", 'YITP', affiliation)
 	affiliation = re.sub(r"Tokyo University of Science", 'TUS', affiliation)
+	affiliation = re.sub(r"University College Dublin", 'UCD', affiliation)
 	affiliation = re.sub(r"National Astronomical Observatory of Japan", 'NAOJ', affiliation)
+	affiliation = re.sub(r"Institute of Physics, ASCR, Prague", 'Prague', affiliation)
+	affiliation = re.sub(r"Max Planck Institute", 'MPI', affiliation)
 	affiliation = re.sub(r"Lebedev.*", 'Lebedev', affiliation)
 	affiliation = re.sub(r".*\(IKI\).*", 'IKI', affiliation)
 	affiliation = re.sub(r"ITA - Aeronautics Institute of Technology", 'ITA', affiliation)
@@ -72,9 +82,18 @@ def chunker(n, array, padvalue=None):
 
 with open('participants.csv', 'rU') as csvfile:
 	for row in csv.reader(csvfile, dialect=csv.excel):
-		if row[28].lower() != 'yes': continue
+		public = row[28].lower()
+		if public != 'yes' and not(output == 'tags' and public == 'no'): continue
 		if row[4].lower() in [p[0].lower() for p in participants]: continue
-		participants.append(row[4:7])
+		
+		# grab names and affiliations
+		last,first,affiliation = row[4:7]
+		if len(last) == 0: last = row[15]
+		if len(first) == 0: first = row[16]
+		if len(affiliation) == 0: affiliation = row[17]
+		affiliation = re.sub(r"[\(\)]+", '', affiliation)
+		
+		participants.append([last,first,affiliation])
 
 participants.sort(key = lambda p: p[0])
 
@@ -84,20 +103,11 @@ for p in itertools.groupby(participants):
 	# fix stuff for people who cannot spell
 	if last == "Lebed": affiliation = "University of Arizona"
 	if last == "Afshordi": affiliation = "Perimeter Institute"
-	if last == "Baryakhtar": affiliation = "Perimeter Institute"
 	if last == "Halenka": affiliation = "University of Michigan"
 	if last == "Steer": affiliation = "APC, Paris"
-	if last == "Ottewill": affiliation = "UCD"
 	if last == "Saida": affiliation = "Daido University"
-	if last == "Tsujikawa": affiliation = "Tokyo University of Science"
 	if last == "Tanahashi": affiliation = "Osaka University"
-	if last == "Nielsen": affiliation = "MPI"
-	if last == "Menary": affiliation = "York University"
-	if last == "Galvez": affiliation = "Simon Fraser University"
-	if last == "Frick": affiliation = "Simon Fraser University"
-	if last == "Medvedova": affiliation = "Simon Fraser University"
 	if last == "Kunstatter": affiliation = "University of Winnipeg"
-	if last == "Vikman": affiliation = "FZU"
 	if last == "Rapetti": affiliation = "Boulder/NASA Ames"
 	if last == "Deffayet": affiliation = "CNRS"
 	if last == "Yamashita": affiliation = "Yukawa Institute for Theoretical Physics"
@@ -110,30 +120,42 @@ for p in itertools.groupby(participants):
 	# abbreviate name if it is too long
 	if (len(first+last) > 24):
 		first = re.sub(r'([A-Z])[a-z]+', r'\1.', first)
+	
+	# special roles...
+	role = ""
+	if last in soc: role = "[soc]"
+	if last in loc: role = "[volunteer]"
+	
+	# formatted output
+	if output == 'html': table.append("%s %s (%s)" % (first, last, mangle(affiliation)))
+	if output == 'tags': table.append("\\nametag%s{%s %s}{%s}" % (role, first, last, mangle(affiliation)))
+	if output == 'list': table.append("\\nametag%s{%s %s}{%s}" % (role, first, last, affiliation))
 
-	table.append("%s %s (%s)" % (first, last, mangle(affiliation)))
-
-print """<meta charset="UTF-8">
+if output == 'html':
+	print """<meta charset="UTF-8">
 <font face="PT Sans Caption" size="6">Registered Participants:
 </font>
 <table>
 <tbody style="vertical-align: top;">
 <tr>
 """
-
-#for row in chunker(3, table, ""):
-#	print "<tr>"
-#	for name in row:
-#		print "<td style=\"width: 48ex;\">%s" % name
-
-for column in grouper((len(table)+2)/3, table):
-	print "<td style=\"width: 30%;\"><ul>"
-	for name in column:
-		if name != None: print "<li>" + name
-	print "</ul></td>"
-
-print """
+	
+	#for row in chunker(3, table, ""):
+	#	print "<tr>"
+	#	for name in row:
+	#		print "<td style=\"width: 48ex;\">%s" % name
+	
+	for column in grouper((len(table)+2)/3, table):
+		print "<td style=\"width: 30%;\"><ul>"
+		for name in column:
+			if name != None: print "<li>" + name
+		print "</ul></td>"
+	
+	print """
 </tr>
 </tbody>
 </table>
 """
+else:
+	for tag in table:
+		print re.sub(r"\&", '\\&', tag)
