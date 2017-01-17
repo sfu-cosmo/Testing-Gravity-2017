@@ -9,7 +9,7 @@
 	<key>createOfflineApplicationCache</key>
 	<false/>
 	<key>currentSceneContainer</key>
-	<string>119</string>
+	<string>76</string>
 	<key>customExportSlices</key>
 	<array>
 		<dict>
@@ -169,7 +169,7 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2017-01-17T01:04:44Z</date>
+	<date>2017-01-17T21:53:03Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -1177,7 +1177,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>2</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 349.5}</string>
+					<string>{0, 350}</string>
 				</dict>
 			</array>
 		</dict>
@@ -1204,7 +1204,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1164, 1406}</string>
+					<string>{1064, 1406}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -1229,7 +1229,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>120</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 555}</string>
+					<string>{1, 410}</string>
 				</dict>
 			</array>
 		</dict>
@@ -1281,7 +1281,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>77</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 268}</string>
+					<string>{0, 855}</string>
 				</dict>
 			</array>
 		</dict>
@@ -1466,7 +1466,7 @@
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>27EDD85D-1AFA-42D7-A409-C8478F442301-90222-00001447913002FF</string>
+			<string>8F95B2D3-027A-43A3-9FFB-4A81EAF29099-7171-00001D3A54DE31ED</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -2809,7 +2809,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>27EDD85D-1AFA-42D7-A409-C8478F442301-90222-00001447913002FF</string>
+			<string>8F95B2D3-027A-43A3-9FFB-4A81EAF29099-7171-00001D3A54DE31ED</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -6513,7 +6513,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>27EDD85D-1AFA-42D7-A409-C8478F442301-90222-00001447913002FF</string>
+			<string>8F95B2D3-027A-43A3-9FFB-4A81EAF29099-7171-00001D3A54DE31ED</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -7966,7 +7966,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>27EDD85D-1AFA-42D7-A409-C8478F442301-90222-00001447913002FF</string>
+			<string>8F95B2D3-027A-43A3-9FFB-4A81EAF29099-7171-00001D3A54DE31ED</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -9742,7 +9742,7 @@ context.stroke();
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>27EDD85D-1AFA-42D7-A409-C8478F442301-90222-00001447913002FF</string>
+			<string>8F95B2D3-027A-43A3-9FFB-4A81EAF29099-7171-00001D3A54DE31ED</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -10033,7 +10033,9 @@ a:hover, a:active { color: #FF2600 }
 
 &lt;tr class="plain" style="height: 13em;"&gt;
 &lt;td&gt;&lt;span class="time"&gt;11:00-12:30&lt;/span&gt; &lt;span class="speaker"&gt;Dimitrios Psaltis&lt;/span&gt;
-    &lt;span class="title"&gt;Gravity waves&lt;/span&gt;
+    &lt;span class="title"&gt;Gravitational Waves&lt;/span&gt;
+    &lt;span class="time"&gt;Review Article:&lt;/span&gt;
+    &lt;span class="title"&gt;&lt;a href="http://iopscience.iop.org/article/10.1088/1367-2630/7/1/204/meta" target="_blank"&gt;The basics of gravitational wave theory&lt;/a&gt;&lt;/span&gt;
 &lt;td&gt;&lt;span class="time"&gt;11:00-11:30&lt;/span&gt; &lt;span class="speaker"&gt;Bruce Allen&lt;/span&gt;
     &lt;span class="title"&gt;Direct observation of gravitational waves from the merger and inspiral of two black holes&lt;/span&gt;
     &lt;span class="time"&gt;11:30-12:00&lt;/span&gt; &lt;span class="speaker"&gt;Frans Pretorius&lt;/span&gt;
@@ -10078,7 +10080,8 @@ a:hover, a:active { color: #FF2600 }
     &lt;span class="title"&gt;Review of cosmology and the cosmological and astrophysical tests of gravity&lt;/span&gt;
 &lt;td&gt;&lt;span class="time"&gt;14:00&lt;/span&gt; &lt;span class="speaker"&gt;Joy Johnson&lt;/span&gt;
     &lt;span class="title"&gt;Welcome from VPR&lt;/span&gt;
-    &lt;span class="time"&gt;14:05-14:35&lt;/span&gt; &lt;span class="speaker"&gt;Holger Muller&lt;/span&gt;&lt;p&gt;
+    &lt;span class="time"&gt;14:05-14:35&lt;/span&gt; &lt;span class="speaker"&gt;Holger Muller&lt;/span&gt;
+    &lt;span class="title"&gt;Using matter waves to look for the dark sector&lt;/span&gt;
     &lt;span class="time"&gt;14:35-15:05&lt;/span&gt; &lt;span class="speaker"&gt;Clare Burrage&lt;/span&gt;
     &lt;span class="title"&gt;Experimental searches for screened dark energy&lt;/span&gt;
     &lt;span class="time"&gt;15:05-15:20&lt;/span&gt; &lt;span class="speaker"&gt;Tim Kovachy&lt;/span&gt;
@@ -10321,7 +10324,7 @@ a:hover, a:active { color: #FF2600 }
 			<key>currentGroupElement</key>
 			<string>118</string>
 			<key>documentIdentifier</key>
-			<string>27EDD85D-1AFA-42D7-A409-C8478F442301-90222-00001447913002FF</string>
+			<string>8F95B2D3-027A-43A3-9FFB-4A81EAF29099-7171-00001D3A54DE31ED</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>128</string>
@@ -13424,9 +13427,11 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>27EDD85D-1AFA-42D7-A409-C8478F442301-90222-00001447913002FF</string>
+			<string>8F95B2D3-027A-43A3-9FFB-4A81EAF29099-7171-00001D3A54DE31ED</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>124</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -13666,6 +13671,12 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 							<string>Height</string>
 							<key>objectValue</key>
 							<string>1029px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AutoresizingMask</string>
+							<key>objectValue</key>
+							<string>37</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -13943,7 +13954,7 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>27EDD85D-1AFA-42D7-A409-C8478F442301-90222-00001447913002FF</string>
+			<string>8F95B2D3-027A-43A3-9FFB-4A81EAF29099-7171-00001D3A54DE31ED</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>138</string>
