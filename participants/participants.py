@@ -35,7 +35,7 @@ participants = [
 ]
 
 soc = ["Frolov", "Fujiwara", "Pogosian", "Pospelov", "Psaltis", "Scott"]
-loc = ["Contreras", "Frick", "Galvez", "Medvedova", "Pinsonneault-Marotte", "Pogosian"]
+loc = ["Contreras", "Desrochers", "Dobre", "Frick", "Galvez", "Medvedova", "Pinsonneault-Marotte", "Pogosian"]
 
 table = []
 
