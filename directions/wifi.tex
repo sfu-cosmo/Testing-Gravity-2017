@@ -1,0 +1,77 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+% use the corresponding paper size for your ticket definition
+\documentclass[letterpaper,12pt]{article}
+
+% load fonts and graphics
+\usepackage{xcolor,xifthen,xltxtra,xunicode,fontspec,epsfig}
+\definecolor{RegentGrey}{HTML}{83939D}
+\usepackage[pdfauthor={Testing Gravity 2015},pdftitle={WiFi Access},colorlinks,urlcolor={RegentGrey}]{hyperref}
+\defaultfontfeatures{Scale=MatchLowercase,Ligatures=TeX}
+
+%%% Set paper size and margins
+\usepackage[letterpaper]{anysize}       % Set paper size and margins
+\marginsize{0.5in}{0.5in}{0.5in}{0.5in}
+\setlength{\headheight}{32pt}
+\setlength{\headsep}{12pt}
+\flushbottom
+
+%%% Customize layout
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\pagestyle{fancy}
+\lhead{\fontspec{Cinzel}\huge Testing Gravity 2017}\chead{}
+\rhead{\fontspec{Lato Light Italic}\Large WiFi Access}
+\lfoot{}\cfoot{}\rfoot{}
+%\renewcommand{\headrulewidth}{1pt}
+%\renewcommand{\footrulewidth}{1pt}
+
+% EB Garamond
+\setmainfont{Lato}[ItalicFont={Lato Italic}, BoldFont={PT Sans}, BoldItalicFont={PT Sans Italic}, SmallCapsFont=Cinzel]
+\setsansfont{Lato}
+\setmonofont{Jura}
+
+\usepackage{titlesec}
+
+\titleformat*{\section}{\fontsize{24pt}{24pt}\bfseries}
+\titleformat*{\subsection}{\fontsize{18pt}{18pt}\bfseries}
+\titleformat*{\subsubsection}{\large\bfseries}
+%\titleformat*{\paragraph}{\large\bfseries}
+%\titleformat*{\subparagraph}{\large\bfseries}
+
+\newcommand{\bus}[1]{\textit{``#1''}}
+
+\begin{document}
+~
+
+\vfill
+
+\centerline{\fontsize{32pt}{64pt}\fontspec{Lato Light}If you have institutional access,}
+
+\bigskip
+\centerline{\fontsize{32pt}{64pt}\fontspec{Lato Light}connect to {\fontspec{Lato Italic}eduroam}. Otherwise, }
+
+\vspace{3em}
+\centerline{\fontsize{32pt}{64pt}\fontspec{Lato Light} connect to {\fontspec{Lato Italic}SFUNET}}
+
+\bigskip
+\centerline{\fontsize{24pt}{64pt}\fontspec{Lato Light} ({\fontspec{Lato Italic}not} to {\fontspec{Lato Light Italic}SFUNET-SECURE)},}
+
+\vspace{3em}
+\centerline{\fontsize{32pt}{64pt}\fontspec{Lato Light} and use login credentials below:}
+
+\vfill
+
+\begin{center}
+\begin{tabular}{rl}
+{\fontsize{32pt}{48pt}\fontspec{Lato Bold}Account ID:} & {\fontsize{32pt}{48pt}\fontspec{Lato Italic} LW3667}\medskip\\
+{\fontsize{32pt}{48pt}\fontspec{Lato Bold}Password:} & {\fontsize{32pt}{48pt}\fontspec{Lato Italic} 3V9pX6;3}\\
+\end{tabular}
+\end{center}
+
+\vfill
+%\centerline{\fontsize{32pt}{64pt}\fontspec{Lato Hairline} -- see reverse for detailed instructions --}
+%\vfill
+
+\end{document}

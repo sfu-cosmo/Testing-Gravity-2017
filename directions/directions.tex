@@ -1,0 +1,153 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+% use the corresponding paper size for your ticket definition
+\documentclass[letterpaper,12pt]{article}
+
+% load fonts and graphics
+\usepackage{xcolor,xifthen,xltxtra,xunicode,fontspec,epsfig}
+\definecolor{RegentGrey}{HTML}{83939D}
+\usepackage[pdfauthor={Testing Gravity 2015},pdftitle={Maps and Directions},colorlinks,urlcolor={RegentGrey}]{hyperref}
+\defaultfontfeatures{Scale=MatchLowercase,Ligatures=TeX}
+
+%%% Set paper size and margins
+\usepackage[letterpaper]{anysize}       % Set paper size and margins
+\marginsize{0.5in}{0.5in}{0.5in}{0.5in}
+\setlength{\headheight}{32pt}
+\setlength{\headsep}{12pt}
+\flushbottom
+
+%%% Customize layout
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\pagestyle{fancy}
+\lhead{\fontspec{Cinzel}\huge Testing Gravity 2017}\chead{}
+\rhead{\fontspec{Lato Light Italic}\Large Directions and Local Information}
+\lfoot{}\cfoot{}\rfoot{}
+%\renewcommand{\headrulewidth}{1pt}
+%\renewcommand{\footrulewidth}{1pt}
+
+% EB Garamond
+\setmainfont{Lato}[ItalicFont={Lato Italic}, BoldFont={PT Sans}, BoldItalicFont={PT Sans Italic}, SmallCapsFont=Cinzel]
+\setsansfont{Lato}
+\setmonofont{Jura}
+
+\usepackage{titlesec}
+
+\titleformat*{\section}{\fontsize{24pt}{24pt}\bfseries}
+\titleformat*{\subsection}{\fontsize{18pt}{18pt}\bfseries}
+\titleformat*{\subsubsection}{\large\bfseries}
+%\titleformat*{\paragraph}{\large\bfseries}
+%\titleformat*{\subparagraph}{\large\bfseries}
+
+\newcommand{\bus}[1]{\textit{``#1''}}
+
+\begin{document}
+
+\section*{Getting Around Vancouver:}
+
+A lot of Vancouver is very walkable, and the buses and the skytrain are easy to use. \href{https://www.google.com/maps/d/viewer?mid=1yeYSdysuwK0qmC32t6TzWAHRAcc&ll=49.2833959021208%2C-123.12375658105464&z=14}{Google Maps} and \href{http://www.translink.ca}{TransLink} provide accurate information for Vancouver transit.  A trip within Zone 1 costs \$2.75 and will allow you to take as many transfers as needed for 90 minutes. The ticket machines on the buses no longer take cash. It's highly recommended to buy a Compass card, which is sold at vending machines at all SkyTrain stations (including at YVR airport), as well as many supermarkets and shops.
+
+In what follows, you will find directions to the hotels and the conference venue, as well as the banquet at 19:00 on Friday at the \href{http://docksidevancouver.com}{Dockside restaurant} on \href{http://granvilleisland.com}{Granville Island}. There are also suggestions for places to eat, and some other popular activities in Vancouver.
+
+\section*{Getting to the venue and the hotels from the YVR airport:}
+
+The \href{http://www.translink.ca/en/Schedules-and-Maps/SkyTrain/SkyTrain-Schedules/Canada-Line.aspx}{SkyTrain Canada Line} is the best option for getting from \href{http://www.yvr.ca/en/passengers}{Vancouver International Airport} (YVR) to downtown Vancouver and is faster than taking a taxi. At YVR, follow signs for the SkyTrain and buy your ticket at one of the vending machines on the platform.
+
+The conference venue, \href{https://www.sfu.ca/mecs/facilities/harbour-centre.html}{SFU Harbour Centre} (which is right under that landmark tower with the saucer on top), and the \href{http://www.marriott.com/hotels/travel/yvrdv-delta-vancouver-suites/}{Delta hotel} are steps away from the \href{http://infomaps.translink.ca/System_Maps/skytrain_station_maps/waterfront_station.pdf}{Waterfront station}, while the \href{https://www.sandmanhotels.com/locations/british-columbia/vancouver/hotels/vancouver-city-centre-vcc?property=VCC&adults=2&children=0&dates=2017-01-24_2017-01-29&groupCode=912299&fromSearch=1&currency=CAD}{Sandman hotel} is 5-7 min walk away from the \href{http://infomaps.translink.ca/System_Maps/skytrain_station_maps/granville_vancouver_city_centre_station.pdf}{Vancouver City Centre station}. If you are staying at the \href{https://sylviahotel.com/}{Sylvia hotel}, see our suggestions below.
+
+The registration desk at Harbour Centre will be open on Wednesday and Thursday until 19:00. On other days it will remain open until the end of the talks. If your flight lands sufficiently early, we suggest that you come straight to the venue, register, and let our volunteers help you find your way to your hotel. 
+
+\subsection*{Delta Hotel:}
+
+\href{http://www.marriott.com/hotels/travel/yvrdv-delta-vancouver-suites/}{Delta Hotel} is right across the street from SFU Harbour Building. From the airport, take the SkyTrain all the way to Waterfront station. When you get off the train, take the exit to Granville Street. When you are above ground, turn around and go right on West Hastings Street. Delta Vancouver Suites is just over one block away past the Seymour and West Hastings intersection. The entire trip from YVR should take less than 30 minutes, and the SkyTrain comes about every 6 minutes.
+
+\subsection*{Sandman Hotel Vancouver:}
+ 
+\href{https://www.sandmanhotels.com/locations/british-columbia/vancouver/hotels/vancouver-city-centre-vcc?property=VCC&adults=2&children=0&dates=2017-01-24_2017-01-29&groupCode=912299&fromSearch=1&currency=CAD}{Sandman Hotel} is a 5-7 min walk away from the Vancouver City Centre Station on the SkyTrain line coming from the airport. Once you come out of the station, walk along West Georgia Street toward Granville Street. 
+
+Sandman Hotel is also right across the street from the \href{http://infomaps.translink.ca/System_Maps/skytrain_station_maps/stadium_chinatown_station.pdf}{Stadium-Chinatown} SkyTrain station, which is on a different line that also goes to the Waterfront station (i.e. the venue). To get to/from the venue, you can walk for about 15 minutes, or take the SkyTrain from the Stadium Station.
+
+To walk from Sandman to SFU Harbour Centre, go left onto West Georgia Street. Then turn right into Cambie Street. and then take a left at West Hastings Street. Harbour Centre will be right there.
+
+
+\subsection*{The Sylvia Hotel:}
+
+For those staying at \href{https://sylviahotel.com/}{The Sylvia Hotel} and whose flights land sufficiently early on Wednesday or Thursday, we suggest that you come to the venue first, register, and then take a bus or taxi to the hotel. Alternatively, the taxi from the airport to the hotel will cost about \$40 CAD.  Or you can find more elaborate public transport options yourself by using directions on Google Maps.
+
+To get to/from the venue, it's best to use the \bus{005 Robson} bus, which goes from the corner of Denman Street and Davie St, all the way to SFU Harbour Centre. There should be a bus roughly every 8 minutes. Or you can walk, which should take between 20 and 40 mins depending on your speed.
+
+To walk to the Harbour Centre, go up Gilford Street. It will turn right into Pendrell Street, and then take a left at Denman Street. Walk all the way to West Georgia Street, turn right, and then turn left on Cardero Street followed by a final right on West Hastings Street. Follow West Hastings all the way to Harbour Centre.
+
+\section*{Getting to the Banquet:}
+
+To get to the banquet at \href{http://docksidevancouver.com}{Dockside} on Granville Island, you can either take a bus, walk, or take a taxi. If you are going directly from the venue, our volunteers will be leading groups going there by bus. If you are taking a bus, make sure you have a Compass card or another form of a ticket. You can buy a Compass card in advance from the vending machines at all SkyTrain stations (including at YVR airport), as well as many supermarkets and shops. Walking to Granville Island in bad weather is not recommended, as it involves crossing a long bridge, but should be OK for walking enthusiasts. Or, you may prefer forming a group of a few and sharing a taxi.
+
+\subsection*{Bus from Delta Hotels and Harbour Centre:}
+
+Turn onto Seymour Street and walk towards the water to West Cordova Street. Cross the street and wait for the \bus{050 False Creek} bus. Take it to West 2nd and Anderson, and then cross the bridge to Granville Island and take a right on Cartwright Street. Follow it all the way to the end to Dockside. The trip will take about 30 minutes, and the \bus{050 False Creek} comes every 15 minutes.
+
+\subsection*{Bus from Sandman Hotel:}
+
+Walk along West Georgia Street towards Cambie Street, then turn right on Granville Street. The \bus{050 False Creek} bus stop will be right there. Take it to West 2nd and Anderson, and then cross the bridge to Granville Island and take a right on Cartwright Street. Follow it all the way to the end to Dockside. The trip will take about 30 minutes, and the \bus{050 False Creek} comes every 15 minutes.
+
+\subsection*{From the Sylvia Hotel:}
+
+To bus from the Sylvia Hotel, you first have to get to Granville and Davie. There are two options. First, you can take a left on Beach Avenue and another left on Davie Street, and wait at the stop just past Denman Street for the \bus{006 Downtown} bus, as if going to the conference. This time, get off the bus at Granville and Davie, and then cross the street both ways. Wait for a \bus{050 False Creek} bus, and get off at West 2nd and Anderson. Cross the bridge to Granville Island, and take a right on Cartwright Street. Follow it all the way to the end to Dockside. The trip will take about 40 minutes, and the \bus{050 False Creek} comes every 15 minutes. To make it on time, take the \bus{006} at 18:27, or the \bus{C23} at 18:25.
+
+The other option is to take the ferry. You can find these small passenger ferries just in front of the Vancouver Aquatic Centre of Beach Avenue, and take them one stop to Granville Island. On Granville Island, simply turn left on Johnson Street and walk all the way to the end to Dockside. You can get to the ferry by walking along Beach Avenue, which will take about 20 minutes but is a very nice walk, or by taking the \bus{C23 Main St Stn} at Morton and Beach and getting off at Beach and Thurlow. The ferry to Granville Island costs \$3.25, or you can buy a round trip ticket for \$5.50, and they come about every 5 minutes until 21:00.
+
+\section*{Places to Eat:}
+
+Vancouver is an awesome city for eating out, especially for Asian food of all types, but also other types of international cuisine and fusion. For \textbf{lunch}, the easiest option is to go to the big food court underneath the venue, which offers a good variety of healthy and other types of fast food. There are also many restaurants nearby. The list below is a short-list of some of the organizers’ favourites.
+
+\subsection*{Near Harbour Centre, Sandman Hotel and Delta Hotels by Marriott:}
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+\item \href{http://www.steamworks.com}{\textbf{Steamworks}}, 375 Water Street: This brew pub is a Vancouver staple. You will find all of the standard pub fare and more, and it is also a great chance to try some local award winning beer.
+\item \href{http://www.bonchaz.ca}{\textbf{Bonchaz}}, 426 W Hastings Street: This small bakery has delicious sandwiches served on bread baked in house. Their claim to fame is the Bonchaz Bun, which is a sweet dough bun with a butter and sugar filling. Great for lunch.
+\item \href{http://www.lataqueria.com}{\textbf{La Taqueria}}, 322 W Hastings Street: This little taco shop is home to probably the best tacos in Vancouver, and is a great stop for lunch.
+\item \href{http://www.nuba.ca}{\textbf{Nuba}}, 207 W Hastings Street: This excellent Lebanese restaurant is good for lunch or dinner.
+\end{itemize}
+
+\subsection*{Near the Sylvia Hotel:}
+
+Denman Street is lined with restaurants of all types, and they are all quite good. You generally cannot go too wrong by simply walking into a place that looks good to you. The Boathouse and Cactus Club restaurant/pubs near Sylvia Hotel have very good beer and excellent menus. 
+
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+\item \href{http://boathouserestaurants.ca/locations/#ENGLISH%20BAY}{\textbf{The Boathouse}}, 1795 Beach Avenue: Local seafood and pub fare.
+\item \href{https://www.cactusclubcafe.com/location/english-bay/}{\textbf{Cactus Club}}, 1790 Beach Avenue: Casual dining with a pretty view.
+\item \href{http://www.akirasushi.ca}{\textbf{Akira Sushi}}, 1069 Denman Street: An excellent choice if you are feeling like sushi.
+\item \href{http://www.bananaleaf-vancouver.com}{\textbf{Banana Leaf}}, 1096 Denman Street: This award winning Malaysian restaurant serves their food tapas-style, where all dishes are shared.
+\end{itemize}
+
+\subsection*{Further Afield}
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+\item \href{http://www.shizenya.ca}{\textbf{Shizen Ya}}, 985 Hornby Street: This delicious sushi restaurant serves only brown rice, and all of their salad is made with organic vegetables. It has vegan and gluten-free options as well.
+\item \href{http://www.cafecrepe.com}{\textbf{Cafe Crepe}}, 874 Granville Street: This is a great place to stop at lunch for a quick crepe.
+\item \href{http://www.zefferellis.com}{\textbf{Zefferelli's}}, 1136 Robson Street: This spaghetti joint has a lovely atmosphere and is right above one of the busiest shopping streets in Vancouver.
+\item \href{http://www.thenaam.com}{\textbf{The Naam}}, 2724 West 4th Avenue: This is a very busy vegetarian restaurant that is open 24 hours a day 7 days a week. They also have live music from 19:00-22:00 every night. It is a bit further away, but the trip is worth it. Make sure to try the sesame fries and miso gravy.	
+\item \href{http://www.healthynoodle.ca}{\textbf{Healthy Noodle House}}, 2716 West 4th Avenue: Right next door to the Naam, this noodle house is very small, but the owner is very friendly and the food is delicious. Stop by if the Naam is too busy, or you want tasty noodle soup without high sodium or MSG.
+\item \href{http://www.vijsrestaurant.ca}{\textbf{Vij's}}, 1480 W 11 Avenue: This award winning Indian restaurant serves inventive dishes and has a great atmosphere. They do not take reservations, and open at 17:30.
+\end{itemize}
+
+
+\section*{Things to do in Vancouver:}
+
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+\item \href{http://www.vancouverlookout.com/}{\textbf{Harbour Centre Tower:}} Located right above our meeting venue, the tower offers 360º aerial view of Vancouver and the surrounding area. Pretty at night! 
+\item \href{http://vancouver.ca/parks-recreation-culture/seawall.aspx}{\textbf{The Seawall:}} Walk, run, or bike the Seawall, a scenic 22 km path that extends all the way from Coal Harbour downtown to Kitsilano Beach. It is a beautiful trail, especially if the weather cooperates.
+\item \href{http://vancouver.ca/parks-recreation-culture/stanley-park.aspx}{\textbf{Stanley Park:}} This enormous park is very close to downtown. There are kilometers of trails, scenic views, and other things to see. TripAdvisor recently named it the top park in the world.
+\item \href{http://granvilleisland.com/}{\textbf{Granville Island:}} Granville Island is one of the top tourist destinations in the city. With a mix of shops, restaurants, theatres, a market and a marina, there is something for everyone. Our banquet venue is located there.
+\item \href{http://www.vanaqua.ca}{\textbf{Vancouver Aquarium:}} This aquarium is located in the heart of Stanley Park, and is the largest aquarium in Canada. It is home to two dolphins, two beluga whales, and over 50,000 different animals.
+\item \href{http://moa.ubc.ca/}{\textbf{UBC Museum of Anthropology:}} This museum is probably the top world-class museum in the lower mainland, with collection consisting of 40,000 objects representing cultures from all over the world.
+\item \href{http://www.flyovercanada.com}{\textbf{Fly Over Canada:}} This flight simulation ride takes you all over Canada, and is complete with scents, mist, and wind. It is located at Canada Place, quite close to Harbour Centre.
+\item \href{http://www.capbridge.com/}{\textbf{Capilano Suspension Bridge:}} Check out spectacular Capilano Canyon from high above on a suspension bridge, and walk the local rainforest habitat among 1300-year-old old Douglas firs.
+\item \href{http://www.grousemountain.com/}{\textbf{Grouse Mountain Gondola:}} Grouse Mountain Gondola will take you high in the North Shore mountains with spectacular views of the Vancouver. Fun even if you do not ski! Even better if you do!
+\item \href{http://www.whistlerblackcomb.com/}{\textbf{Visit Whistler:}} While not in Vancouver, the resort municipality of Whistler is a very popular destination for skiing, snowboarding, and other winter activities. There are shuttles from downtown to get there.
+\end{itemize}
+
+\end{document}
