@@ -1,0 +1,222 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+% use the corresponding paper size for your ticket definition
+\documentclass[letterpaper,12pt]{article}
+
+%%% Load fonts and graphics
+\usepackage{mathspec} % loads fontspec as well
+\usepackage{xcolor,xifthen,xltxtra,xunicode,graphicx,amstext}
+\definecolor{RegentGrey}{HTML}{83939D}
+\usepackage[pdfauthor={Testing Gravity 2017},pdftitle={Talks and Posters},colorlinks,urlcolor={RegentGrey}]{hyperref}
+\defaultfontfeatures{Scale=MatchLowercase,Ligatures=TeX}
+
+%%% Set paper size and margins
+\usepackage[letterpaper]{anysize}       % Set paper size and margins
+\marginsize{0.5in}{0.5in}{0.5in}{0.5in}
+\setlength{\headheight}{32pt}
+\setlength{\headsep}{12pt}
+\flushbottom
+
+%%% Customize layout
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\pagestyle{fancy}
+\lhead{\fontspec{Cinzel}\huge Testing Gravity 2017}\chead{}
+\rhead{\fontspec{Lato Light Italic}\Large Short Talks}
+\lfoot{}\cfoot{}\rfoot{}
+%\renewcommand{\headrulewidth}{1pt}
+%\renewcommand{\footrulewidth}{1pt}
+
+
+\setmainfont[BoldFont={Lato},BoldItalicFont={Lato Italic}]{Lato Light}
+\setsansfont{Lato}
+\setmonofont{Jura}
+\setmathsfont(Digits,Latin,Greek)[Scale=MatchLowercase]{Lato Light}
+
+\newcommand{\slot}[1]{\item[\fontspec{Lato} #1]}
+\newcommand{\talk}[2]{{\fontspec{Lato Bold} #1,} {\fontspec{Lato Italic} #2}}
+
+
+\begin{document}
+\begin{enumerate}
+\setlength\itemsep{0pt}
+%\setlength\itemindent{36pt}
+
+\item \talk{Kamal Barghout (Prince Mohammad Bin Fahd University)}{Modification to Newtonian gravity of two types of opposite masses}
+
+%The model assigns Coulombic gravitational interaction to dark matter and
+%baryonic particles, where like masses repel and unlike masses attract. It provides a
+%physical explanation to MOND theory and explains flat rotation curves for spiral galaxies.
+
+\item \talk{Supranta S. Boruah (University of Waterloo)}{Cuscuton bounce --- a novel bouncing scenario}
+
+%In this work, we study the perturbation theory in a universe with Cuscuton. In
+%particular, we show that we can have a stable bouncing cosmology in this theory without
+%deadly instabilities.
+
+\item \talk{Pasquale Bosso (University of Lethbridge)}{Potential tests of quantum gravity}
+
+%Most quantum gravity theories predict the Generalized Uncertainty Principle
+%(GUP) to replace the Heisenberg principle near the Planck scale. We show that GUP in turn
+%predicts potentially observable quantum gravity effects in quantum optical systems.
+
+\item \talk{Ilaria Caiazzo (University of British Columbia)}{Testing gravity with X-ray polarization from accreting black holes}
+
+%X-ray polarimetry will open a new observational window on black holes. It will
+%provide us with information on the geometry of the emission region with unprecedented
+%resolution, allowing us to probe strong gravity in black holes' accretion disks.
+
+\item \talk {Guillem Domenech (Yukawa Institute for Theoretical Physics)}{Tensor modes produce a scale dependent non-Gaussianity}
+
+%Planck 2015 data shows a possible scale dependent local non-Gaussianity. I will
+%show how such feature is naturally achieved if tensor modes significantly contribute to
+%primordial NG. This is possible in a space-time symmetry breaking theory.
+
+\item \talk{Jose Galvez (Simon Fraser University)}{Nowhere to hide: Unscreening chameleons with a black hole}
+
+%It is believed that the additional degrees of freedom in any modification of
+%gravity are screened by the matter densities coexisting in an astrophysical Black Hole. In
+%this talk, we will find that this might not always be the case.
+
+\item \talk{Kouichirou Horiguchi (Nagoya University)}{Proofs of the cosmological phase transitions}
+
+%It is expected that the universe had experienced many kinds of phase
+%transitions. These phase transitions are difficult to observe directly, but their relics,
+%called ``cosmic defects'' can be a smoking gun of them. We have investigated several types
+%of observables related to cosmological perturbations that the cosmic defects should induce, 
+%namely, primordial magnetic fields, gravitational waves, gravitational lensing and so on. By 
+%considering near-future observations, we have found that cosmic strings and texture with
+%$G\mu \sim Gv^2 \sim 10^{-7}$ may be detected by SKA and DECIGO with $G$, $\mu$ and 
+%$v$ being the gravitational constant, the tension of the strings and the field value of the texture, respectively.
+
+\item \talk{Henri Inchauspé (ONERA)}{The inverse square law and Newtonian dynamics space experiment (ISLAND) mission concept}
+
+%An electrostatic torsion pendulum embedded in a gradiometer, onboard a drag-free
+%spacecraft bound to the outer Solar System, testing gravity both at submilliter scales and
+%at large scales in an optimal environment.
+
+\item \talk{Vitali Halenka (University of Michigan)}{Testing gravity with gravitational potentials of galaxy clusters}
+
+%The research involves several topics such as designing new tests to discriminate
+%between general relativity and modified gravity and to constraint standard cosmological
+%model.
+
+\item \talk{Andrei G. Lebed (University of Arizona)}{Inequality between inertial and gravitational masses: Suggested experiment on the Earth's orbit}
+
+%We have theoretically demonstrated that passive gravitational mass of a
+%composite quantum body is not equivalent to its inertial mass. We have suggested an
+%idealized experiment on the Earth's orbit to observe this phenomenon both for the theory
+%and experiment. Here, we discuss how to perform the corresponding
+%real experiment. It would be not only the first observation of a breakdown of the
+%Equivalence Principle, but also the first observation of quantum effects in General
+%Relativity.
+
+\item \talk{Jounghun Lee (Seoul National University)}{A bound violation on the galaxy group scale: The turn-around radius of NGC 5353/4}
+
+%The first observational evidence for the violation of the maximum turn-around
+%radius on the galaxy group scale is presented and its implication on the nature of gravity
+%will be discussed.
+
+\item \talk{Ryo Namba (McGill University)}{Inflationary models driven by vector fields}
+
+%Most vector-driven inflationary models are plagued by pathological instabilities or
+%disfavored by observations. I address existing issues and propose a new class of stable
+%models in general vector-tensor theories broadening the possible model window.
+
+\item \talk{Junpei Ooba (Nagoya University)}{Cosmological constraints on scalar-tensor cosmology and the variation of the gravitational constant}
+
+%We present cosmological constraints on the scalar-tensor theory of gravity by
+%analyzing the angular power spectrum data of the cosmic microwave background (CMB)
+%obtained from the Planck 2015 results together with the baryon acoustic oscillations (BAO)
+%data. We find that the inclusion of the BAO data makes more than 10\% improvement on the
+%constraints on the time variation of the effective gravitational constant. We also discuss
+%the dependence of the constraints on the choice of the prior.
+
+\item \talk{Manu Paranjape (Universit\'e de Montr\'eal)}{Gravitationally induced quantum transitions and the graviton laser}
+
+%We calculate the probability for resonantly induced transitions in quantum
+%states due to time dependent gravitational perturbations. Contrary to common wisdom, the
+%probability of inducing transitions is not infinitesimally small. We consider a system of
+%ultra cold neutrons (UCN), which are organized according to the energy levels of the
+%Schr\"odinger equation in the presence of the earth's gravitational field. Transitions
+%between energy levels are induced by an oscillating driving force of frequency $\omega$.
+%The driving force is created by oscillating a macroscopic mass in the neighbourhood of the
+%system of neutrons. The neutrons decay in 880 seconds while the probability of
+%transitions increase as $t^2$. Hence the optimal strategy is to drive the system for 2
+%lifetimes. The transition amplitude then is of the order of $1.06\times 10^{-5}$ hence
+%with a million ultra cold neutrons, one should be able to observe transitions. The same
+%system can be used to think about the possibility of creating a graviton laser. It is
+%possible to create a population inversion by pumping the system using the phonons. We
+%compute the rate of spontaneous emission of gravitons and the rate of the subsequent
+%stimulated emission of gravitons. The gain obtainable is directly proportional to the
+%density of the lasing medium and the fraction of the population inversion. The
+%applications of a graviton laser would be interesting.
+
+\item \talk{Janina Renk (Stockholm University)}{Signatures of Horndeski's gravity on ultra-large cosmic scales}
+
+\item \talk{Yuki Sakakihara (Kyoto University)}{Cosmology with bigravity theory}
+
+%As an infrared modification of gravity, we discuss dRGT bigravity theory,
+%focusing on if it can consistently explain cosmological evolution both in early time and
+%in late time. We also discuss fluctuations generated during inflation in bigravity.
+
+\item \talk{Maresuke Shiraishi (Kavli Institute for the Physics and Mathematics of the Universe)}{Testing cosmic parity violation with CMB 2, 3, 4 point-correlators}
+
+%Under the existence of chiral sources, such as a vector field coupled to an
+%axion, primordial correlators break parity. I introduce interesting signatures of induced
+%CMB 2, 3, 4-point correlators, and their current and future constraints.
+
+\item \talk{Hajime Sotani (National Astronomical Observatory of Japan)}{Gravitational waves from protoneutron stars}
+
+%We examine the time evolution of the frequencies of the gravitational wave after
+%the bounce within the framework of relativistic linear perturbation theory using the
+%results of one-dimensional numerical simulations of core-collapse supernovae. Protoneutron
+%star models are constructed in such a way that the mass and the radius of the protoneutron
+%star become equivalent to the results obtained from the numerical simulations. Then we
+%find that the frequencies of gravitational waves radiating from protoneutron stars
+%strongly depend on the mass and the radius of protoneutron stars, but almost independently
+%of the profiles of the electron fraction and the entropy per baryon inside the star.
+%Additionally, we find that the frequencies of gravitational waves can be characterized by
+%the square root of the average density of the protoneutron star irrespective of the
+%progenitor models, which are completely different from the empirical formula for cold
+%neutron stars. The dependence of the spectra on the mass and the radius is different from
+%that of the g-mode: the oscillations around the surface of protoneutron stars due to the
+%convection and the standing accretion-shock instability. Careful observation of these
+%modes of gravitational waves can determine the evolution of the mass and the radius of
+%protoneutron stars after core bounce. Furthermore, the expected frequencies of
+%gravitational waves are around a few hundred hertz in the early stages after bounce, which
+%must be a good candidate for the ground-based gravitational wave detectors.
+
+\item \talk{Norihiro Tanahashi (Osaka University)}{Causal structure and shock formation in the most general scalar-tensor theories}
+
+%Wave propagation speed in scalar-tensor theories may vary depending on
+%environment, and it can cause many peculiar phenomena such as superluminal propagation and
+%wave form distortion. In this work, we focus on Horndeski theory and its generalization to
+%two scalar fields, and examine causal structure and shock formation in those theories.
+%About the causal structure, we focus on a stationary black hole, and check if scalar or
+%gravitational wave could come out from black hole interior to exterior by propagating
+%superluminally. We find that the scalar field must satisfy certain conditions to prohibit
+%such a propagation across the horizon. About the shock formation, we examine conditions
+%for that to occur in Horndeski theory. When the background solution is symmetric enough,
+%we find that the gravitational wave is protected from the shock formation while the scalar
+%field suffers from it. On less symmetric backgrounds in Horndeski theory, and in more
+%general theories such as those with multiple scalar fields, the shock formation may occur
+%even for gravitational wave. We discuss implications of such phenomena.
+
+\item \talk{David Wenjie Tian (Instituto de Ciencias Nucleares -- Universidad Nacional Autonoma de M\'exico)}{Primordial nucleosynthesis: A revised semi-analytical approach}
+
+\item \talk{Yasuho Yamashita (Yukawa Institute)}{Constraint on ghost-free bigravity from Cherenkov radiation}
+
+%We investigate the gravitational Cherenkov radiation (GCR) in the ghost-free
+%bigravity model. We show that the GCR emitted even from an ultrahigh energy cosmic ray is
+%sufficiently suppressed for the graviton's effective mass less than 100eV.
+
+\item \talk{Zeeshan Yousaf (University of the Punjab)}{Wormhole solutions in modified gravity}
+
+%In this talk, I shall use cut and paste technique in order to construct thinshell
+%wormhole of a stellar system with f(R) terms. I shall assume f(R) model as a source
+%of exotic content in the wormhole throat.
+
+\end{enumerate}
+\end{document}

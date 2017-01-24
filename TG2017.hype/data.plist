@@ -9,7 +9,7 @@
 	<key>createOfflineApplicationCache</key>
 	<false/>
 	<key>currentSceneContainer</key>
-	<string>1</string>
+	<string>76</string>
 	<key>customExportSlices</key>
 	<array>
 		<dict>
@@ -169,11 +169,11 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2017-01-21T03:16:57Z</date>
+	<date>2017-01-24T05:46:24Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>4</integer>
+		<integer>1</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -359,7 +359,7 @@
 	<key>monotypeProjectID</key>
 	<string>F08A39BB-D3D0-42DE-B9C0-CCFF87E59384-76220-000030AB372FD229</string>
 	<key>oidCounter</key>
-	<integer>143</integer>
+	<integer>144</integer>
 	<key>pageTitle</key>
 	<string>Testing Gravity 2017</string>
 	<key>resourcesInfo</key>
@@ -1177,7 +1177,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>2</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
+					<string>{0, 555}</string>
 				</dict>
 			</array>
 		</dict>
@@ -1204,7 +1204,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1064, 1406}</string>
+					<string>{1164, 1406}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -1229,7 +1229,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>120</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 555}</string>
+					<string>{0, 555}</string>
 				</dict>
 			</array>
 		</dict>
@@ -1256,7 +1256,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1064, 1806}</string>
+					<string>{1164, 1846}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -1270,7 +1270,7 @@
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{1024, 1766}</string>
+						<string>{1024, 1806}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
@@ -1281,7 +1281,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>77</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 855}</string>
+					<string>{0, 885}</string>
 				</dict>
 			</array>
 		</dict>
@@ -1362,7 +1362,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1064, 1406}</string>
+					<string>{1164, 1406}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -1387,7 +1387,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>91</string>
 					<key>scrollViewOffset</key>
-					<string>{181, 197}</string>
+					<string>{0, 197}</string>
 				</dict>
 			</array>
 		</dict>
@@ -1439,7 +1439,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>134</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 192}</string>
+					<string>{0, 193}</string>
 				</dict>
 			</array>
 		</dict>
@@ -1466,9 +1466,11 @@
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>07926544-8A65-4A86-B080-BB4B7AD838C8-8553-00005518A1696F95</string>
+			<string>8C5770AA-E06F-4B95-82B3-503B8E1948E0-16549-00005B1510160B04</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>59</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -2813,7 +2815,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>07926544-8A65-4A86-B080-BB4B7AD838C8-8553-00005518A1696F95</string>
+			<string>8C5770AA-E06F-4B95-82B3-503B8E1948E0-16549-00005B1510160B04</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -6517,7 +6519,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>07926544-8A65-4A86-B080-BB4B7AD838C8-8553-00005518A1696F95</string>
+			<string>8C5770AA-E06F-4B95-82B3-503B8E1948E0-16549-00005B1510160B04</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -7970,7 +7972,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>07926544-8A65-4A86-B080-BB4B7AD838C8-8553-00005518A1696F95</string>
+			<string>8C5770AA-E06F-4B95-82B3-503B8E1948E0-16549-00005B1510160B04</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -9746,11 +9748,9 @@ context.stroke();
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>07926544-8A65-4A86-B080-BB4B7AD838C8-8553-00005518A1696F95</string>
+			<string>8C5770AA-E06F-4B95-82B3-503B8E1948E0-16549-00005B1510160B04</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>83</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -9896,7 +9896,7 @@ context.stroke();
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>1659px</string>
+							<string>1699px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9923,7 +9923,7 @@ context.stroke();
 							<key>identifier</key>
 							<string>OriginalHeight</string>
 							<key>objectValue</key>
-							<string>1445px</string>
+							<string>1489px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9971,7 +9971,7 @@ context.stroke();
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>1445px</string>
+							<string>1485px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10129,7 +10129,7 @@ a:hover, a:active { color: #FF2600 }
     &lt;span class="title"&gt;GR effect and mass of the massive BH at the center of our galaxy&lt;/span&gt;
     &lt;span class="time"&gt;16:30-16:40&lt;/span&gt; &lt;span class="speaker"&gt;David Rapetti&lt;/span&gt;
     &lt;span class="title"&gt;Modeling and constraining the cluster mass function to test gravity at large scales&lt;/span&gt;
-    &lt;span class="time"&gt;16:40-18:00&lt;/span&gt; &lt;span class="speaker"&gt;Very Short Talks&lt;/span&gt;
+    &lt;span class="time"&gt;16:40-18:00&lt;/span&gt; &lt;span class="speaker"&gt;&lt;a href="../pdfs/short-talks.pdf" target="_blank"&gt;Very Short Talks&lt;/a&gt;&lt;/span&gt;
 &lt;td&gt;&lt;span class="time"&gt;16:00-16:30&lt;/span&gt; &lt;span class="speaker"&gt;Misao Sasaki&lt;/span&gt;
     &lt;span class="title"&gt;Signatures from inflationary massive gravity&lt;/span&gt;
     &lt;span class="time"&gt;16:30-17:00&lt;/span&gt; &lt;span class="speaker"&gt;Will Percival&lt;/span&gt;
@@ -10148,6 +10148,8 @@ a:hover, a:active { color: #FF2600 }
 
 &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;p align=center&gt;&lt;span class="title"&gt;&lt;a href="../pdfs/abstracts.pdf" target="_blank"&gt;download all talk and poster abstracts as a single PDF file&lt;/a&gt;&lt;/span&gt;
 </string>
 						</dict>
 						<dict>
@@ -10331,7 +10333,7 @@ a:hover, a:active { color: #FF2600 }
 			<key>currentGroupElement</key>
 			<string>118</string>
 			<key>documentIdentifier</key>
-			<string>07926544-8A65-4A86-B080-BB4B7AD838C8-8553-00005518A1696F95</string>
+			<string>8C5770AA-E06F-4B95-82B3-503B8E1948E0-16549-00005B1510160B04</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>114</string>
@@ -13434,7 +13436,7 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>07926544-8A65-4A86-B080-BB4B7AD838C8-8553-00005518A1696F95</string>
+			<string>8C5770AA-E06F-4B95-82B3-503B8E1948E0-16549-00005B1510160B04</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -13732,11 +13734,11 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 &lt;/li&gt;&lt;li&gt;Jose Galvez (SFU)
 &lt;/li&gt;&lt;li&gt;Jerome Gleyzes (JPL/Caltech)
 &lt;/li&gt;&lt;li&gt;Vitali Halenka (Michigan)
+&lt;/li&gt;&lt;li&gt;Jeremy Heyl (UBC)
+&lt;/li&gt;&lt;li&gt;Kouichirou Horiguchi (Nagoya)
 &lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;
 &lt;td style="width: 30%;"&gt;&lt;ul&gt;
-&lt;li&gt;Jeremy Heyl (UBC)
-&lt;/li&gt;&lt;li&gt;Kouichirou Horiguchi (Nagoya)
-&lt;/li&gt;&lt;li&gt;Lam Hui (Columbia)
+&lt;li&gt;Lam Hui (Columbia)
 &lt;/li&gt;&lt;li&gt;Henri Inchauspé (ONERA)
 &lt;/li&gt;&lt;li&gt;Mustapha Ishak (UT Dallas)
 &lt;/li&gt;&lt;li&gt;Félix-Louis Julié (APC, Paris)
@@ -13751,6 +13753,8 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 &lt;/li&gt;&lt;li&gt;Catherine Leonard (Carnegie Mellon)
 &lt;/li&gt;&lt;li&gt;Yin-Zhe Ma (KwaZulu-Natal)
 &lt;/li&gt;&lt;li&gt;Roy Maartens (Western Cape)
+&lt;/li&gt;&lt;li&gt;Don McLeod (NVMC)
+&lt;/li&gt;&lt;li&gt;Alexander Mead (UBC)
 &lt;/li&gt;&lt;li&gt;Alzbeta Medvedova (SFU)
 &lt;/li&gt;&lt;li&gt;Scott Menary (York)
 &lt;/li&gt;&lt;li&gt;Holger Mueller (UC Berkeley)
@@ -13761,14 +13765,15 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 &lt;/li&gt;&lt;li&gt;Manu Paranjape (Montréal)
 &lt;/li&gt;&lt;li&gt;Will Percival (ICG, Portsmouth)
 &lt;/li&gt;&lt;li&gt;T. Pinsonneault-Marotte (UBC)
+&lt;/li&gt;&lt;li&gt;Mario Pitschmann (TU Wien)
 &lt;/li&gt;&lt;li&gt;Levon Pogosian (SFU)
 &lt;/li&gt;&lt;li&gt;Pedro Pompeia (ITA)
 &lt;/li&gt;&lt;li&gt;Maxim Pospelov (Victoria/Perimeter)
 &lt;/li&gt;&lt;li&gt;Frans Pretorius (Princeton)
+&lt;/li&gt;&lt;li&gt;Dimitrios Psaltis (Arizona)
 &lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;
 &lt;td style="width: 30%;"&gt;&lt;ul&gt;
-&lt;li&gt;Dimitrios Psaltis (Arizona)
-&lt;/li&gt;&lt;li&gt;David Rapetti (Boulder/NASA Ames)
+&lt;li&gt;David Rapetti (Boulder/NASA Ames)
 &lt;/li&gt;&lt;li&gt;Graham Reid (UBC)
 &lt;/li&gt;&lt;li&gt;Janina Renk (Stockholm)
 &lt;/li&gt;&lt;li&gt;Claudia de Rham (Imperial College)
@@ -13788,6 +13793,7 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 &lt;/li&gt;&lt;li&gt;Kate Taylor (Victoria)
 &lt;/li&gt;&lt;li&gt;David Wenjie Tian (ICN-UNAM)
 &lt;/li&gt;&lt;li&gt;Mark Trodden (UPenn)
+&lt;/li&gt;&lt;li&gt;Tilman Troester (UBC)
 &lt;/li&gt;&lt;li&gt;Shinji Tsujikawa (TUS)
 &lt;/li&gt;&lt;li&gt;Tanmay Vachaspati (Arizona State)
 &lt;/li&gt;&lt;li&gt;Alexander Vikman (Prague)
@@ -13961,9 +13967,11 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>07926544-8A65-4A86-B080-BB4B7AD838C8-8553-00005518A1696F95</string>
+			<string>8C5770AA-E06F-4B95-82B3-503B8E1948E0-16549-00005B1510160B04</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>143</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -14669,7 +14677,18 @@ a:hover, a:active { color: #FF2600 }
 				<key>onSceneSwipeRightActionHandler</key>
 				<dict>
 					<key>actions</key>
-					<array/>
+					<array>
+						<dict>
+							<key>duration</key>
+							<real>1.1000000000000001</real>
+							<key>sceneSymbol</key>
+							<integer>2</integer>
+							<key>transition</key>
+							<integer>4</integer>
+							<key>type</key>
+							<integer>1</integer>
+						</dict>
+					</array>
 				</dict>
 				<key>onSceneSwipeUpActionHandler</key>
 				<dict>
