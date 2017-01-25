@@ -169,7 +169,7 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2017-01-24T05:46:24Z</date>
+	<date>2017-01-25T17:37:12Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -1256,7 +1256,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1164, 1846}</string>
+					<string>{1164, 1866}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -1270,7 +1270,7 @@
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{1024, 1806}</string>
+						<string>{1024, 1826}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
@@ -1281,7 +1281,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>77</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 885}</string>
+					<string>{0, 0}</string>
 				</dict>
 			</array>
 		</dict>
@@ -1466,7 +1466,7 @@
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>8C5770AA-E06F-4B95-82B3-503B8E1948E0-16549-00005B1510160B04</string>
+			<string>04D25093-5E27-4E5D-A64E-F07CC8D3CCA2-24571-00005FAC5FDE08C7</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>59</string>
@@ -1930,15 +1930,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2112,9 +2112,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2124,9 +2124,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>2</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2815,7 +2815,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>8C5770AA-E06F-4B95-82B3-503B8E1948E0-16549-00005B1510160B04</string>
+			<string>04D25093-5E27-4E5D-A64E-F07CC8D3CCA2-24571-00005FAC5FDE08C7</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -2940,15 +2940,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>1024px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>2</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>1024px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3476,15 +3476,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6519,7 +6519,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>8C5770AA-E06F-4B95-82B3-503B8E1948E0-16549-00005B1510160B04</string>
+			<string>04D25093-5E27-4E5D-A64E-F07CC8D3CCA2-24571-00005FAC5FDE08C7</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -6644,15 +6644,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>1024px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>1024px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7972,7 +7972,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>8C5770AA-E06F-4B95-82B3-503B8E1948E0-16549-00005B1510160B04</string>
+			<string>04D25093-5E27-4E5D-A64E-F07CC8D3CCA2-24571-00005FAC5FDE08C7</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -8255,15 +8255,15 @@ The registration fee is $250 for regular and $150 for student participants if pa
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>15</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8693,15 +8693,15 @@ The registration fee is $250 for regular and $150 for student participants if pa
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>3</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8744,15 +8744,15 @@ The registration fee is $250 for regular and $150 for student participants if pa
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8889,15 +8889,15 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>720px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8919,13 +8919,13 @@ context.stroke();
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
@@ -9748,9 +9748,11 @@ context.stroke();
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>8C5770AA-E06F-4B95-82B3-503B8E1948E0-16549-00005B1510160B04</string>
+			<string>04D25093-5E27-4E5D-A64E-F07CC8D3CCA2-24571-00005FAC5FDE08C7</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>83</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -9896,7 +9898,7 @@ context.stroke();
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>1699px</string>
+							<string>1719px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9923,7 +9925,7 @@ context.stroke();
 							<key>identifier</key>
 							<string>OriginalHeight</string>
 							<key>objectValue</key>
-							<string>1489px</string>
+							<string>1516px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -9971,7 +9973,7 @@ context.stroke();
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>1485px</string>
+							<string>1505px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10024,7 +10026,8 @@ a:hover, a:active { color: #FF2600 }
     &lt;span class="title"&gt;A complete framework for testing gravity on cosmological scales&lt;/span&gt;
     &lt;span class="time"&gt;09:30-10:00&lt;/span&gt; &lt;span class="speaker"&gt;Mark Trodden&lt;/span&gt;
     &lt;span class="title"&gt;Multi-messenger time delays from lensed gravitational waves&lt;/span&gt;
-    &lt;span class="time"&gt;10:00-10:30&lt;/span&gt; &lt;span class="speaker"&gt;Eric Adelberger&lt;/span&gt;&lt;p&gt;
+    &lt;span class="time"&gt;10:00-10:30&lt;/span&gt; &lt;span class="speaker"&gt;Eric Adelberger&lt;/span&gt;
+    &lt;span class="title"&gt;Exotic spin-dependent interactions plus progress in lunar laser ranging&lt;/span&gt;
 &lt;td&gt;&lt;span class="time"&gt;09:00-09:30&lt;/span&gt; &lt;span class="speaker"&gt;Cliff Burgess&lt;/span&gt;
     &lt;span class="title"&gt;Effective field theories and modifying gravity: The view from below&lt;/span&gt;
     &lt;span class="time"&gt;09:30-10:00&lt;/span&gt; &lt;span class="speaker"&gt;Austin Joyce&lt;/span&gt;&lt;p&gt;
@@ -10333,7 +10336,7 @@ a:hover, a:active { color: #FF2600 }
 			<key>currentGroupElement</key>
 			<string>118</string>
 			<key>documentIdentifier</key>
-			<string>8C5770AA-E06F-4B95-82B3-503B8E1948E0-16549-00005B1510160B04</string>
+			<string>04D25093-5E27-4E5D-A64E-F07CC8D3CCA2-24571-00005FAC5FDE08C7</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>114</string>
@@ -10485,9 +10488,9 @@ BC Ferries runs several regular &lt;a href="http://www.bcferries.com/schedules/m
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10497,9 +10500,9 @@ BC Ferries runs several regular &lt;a href="http://www.bcferries.com/schedules/m
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10642,15 +10645,15 @@ The meeting will take place in the &lt;a href="http://www.sfu.ca/mecs/facilities
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>2</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10815,9 +10818,9 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -10827,9 +10830,9 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -13436,7 +13439,7 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>8C5770AA-E06F-4B95-82B3-503B8E1948E0-16549-00005B1510160B04</string>
+			<string>04D25093-5E27-4E5D-A64E-F07CC8D3CCA2-24571-00005FAC5FDE08C7</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -13813,15 +13816,15 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -13967,7 +13970,7 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>8C5770AA-E06F-4B95-82B3-503B8E1948E0-16549-00005B1510160B04</string>
+			<string>04D25093-5E27-4E5D-A64E-F07CC8D3CCA2-24571-00005FAC5FDE08C7</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>143</string>
@@ -14377,9 +14380,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -14389,9 +14392,9 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>5</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -14591,15 +14594,15 @@ a:hover, a:active { color: #FF2600 }
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>6</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
