@@ -169,7 +169,7 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2017-01-25T17:37:12Z</date>
+	<date>2017-01-26T07:43:57Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -177,7 +177,7 @@
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1280, 741}}</string>
+			<string>{{0, 0}, {1024, 664}}</string>
 			<key>identifier</key>
 			<string>container 26</string>
 			<key>isCustomizableViewContainer</key>
@@ -190,7 +190,7 @@
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {1009, 741}}</string>
+					<string>{{0, 0}, {753, 664}}</string>
 					<key>identifier</key>
 					<string>container 50</string>
 					<key>isCustomizableViewContainer</key>
@@ -203,7 +203,7 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {135, 741}}</string>
+							<string>{{0, 0}, {135, 664}}</string>
 							<key>identifier</key>
 							<string>container 2</string>
 							<key>isCustomizableViewContainer</key>
@@ -216,7 +216,7 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {135, 741}}</string>
+									<string>{{0, 0}, {135, 664}}</string>
 									<key>identifier</key>
 									<string>sceneSelectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -226,7 +226,7 @@
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{136, 0}, {873, 741}}</string>
+							<string>{{136, 0}, {617, 664}}</string>
 							<key>identifier</key>
 							<string>container 5</string>
 							<key>isCustomizableViewContainer</key>
@@ -239,7 +239,7 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 0}, {873, 240}}</string>
+									<string>{{136, 0}, {617, 163}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -252,7 +252,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 0}, {873, 240}}</string>
+											<string>{{136, 0}, {617, 163}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -262,7 +262,7 @@
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 241}, {873, 500}}</string>
+									<string>{{136, 164}, {617, 500}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -275,7 +275,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 241}, {873, 500}}</string>
+											<string>{{136, 164}, {617, 500}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -289,7 +289,7 @@
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{1010, 0}, {270, 741}}</string>
+					<string>{{754, 0}, {270, 664}}</string>
 					<key>identifier</key>
 					<string>container 49</string>
 					<key>isCustomizableViewContainer</key>
@@ -302,7 +302,7 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{1010, 0}, {270, 741}}</string>
+							<string>{{754, 0}, {270, 664}}</string>
 							<key>identifier</key>
 							<string>inspectorCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -1256,7 +1256,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1164, 1866}</string>
+					<string>{1064, 1866}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -1281,7 +1281,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>77</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
+					<string>{1, 900}</string>
 				</dict>
 			</array>
 		</dict>
@@ -1466,7 +1466,7 @@
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>04D25093-5E27-4E5D-A64E-F07CC8D3CCA2-24571-00005FAC5FDE08C7</string>
+			<string>4C9D28BF-1103-40E0-8C76-759F06441326-1696-0000008B79A9CF2F</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>59</string>
@@ -2815,7 +2815,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>04D25093-5E27-4E5D-A64E-F07CC8D3CCA2-24571-00005FAC5FDE08C7</string>
+			<string>4C9D28BF-1103-40E0-8C76-759F06441326-1696-0000008B79A9CF2F</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -6519,7 +6519,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>04D25093-5E27-4E5D-A64E-F07CC8D3CCA2-24571-00005FAC5FDE08C7</string>
+			<string>4C9D28BF-1103-40E0-8C76-759F06441326-1696-0000008B79A9CF2F</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -7972,7 +7972,7 @@ a:hover, a:active { color: #FF2600 }
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>04D25093-5E27-4E5D-A64E-F07CC8D3CCA2-24571-00005FAC5FDE08C7</string>
+			<string>4C9D28BF-1103-40E0-8C76-759F06441326-1696-0000008B79A9CF2F</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -9748,11 +9748,9 @@ context.stroke();
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>04D25093-5E27-4E5D-A64E-F07CC8D3CCA2-24571-00005FAC5FDE08C7</string>
+			<string>4C9D28BF-1103-40E0-8C76-759F06441326-1696-0000008B79A9CF2F</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>83</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -10019,7 +10017,7 @@ a:hover, a:active { color: #FF2600 }
 
 &lt;tr class="plain" style="height: 13em;"&gt;
 &lt;td&gt;&lt;span class="time"&gt;09:00-10:30&lt;/span&gt; &lt;span class="speaker"&gt;Jeremy Heyl&lt;/span&gt;
-    &lt;span class="title"&gt;Review of General Relativity and ways in which it has been tested&lt;/span&gt;
+    &lt;span class="title"&gt;&lt;a href="../talks/Heyl.pdf" target="_blank"&gt;Review of General Relativity and ways in which it has been tested&lt;/a&gt;&lt;/span&gt;
 &lt;td&gt;&lt;span class="time"&gt;08:55&lt;/span&gt; &lt;span class="speaker"&gt;Workshop Starts&lt;/span&gt;
     &lt;span class="title"&gt;Welcome from organizers&lt;/span&gt;
     &lt;span class="time"&gt;09:00-09:30&lt;/span&gt; &lt;span class="speaker"&gt;Pedro Ferreira&lt;/span&gt;
@@ -10043,7 +10041,7 @@ a:hover, a:active { color: #FF2600 }
 
 &lt;tr class="plain" style="height: 13em;"&gt;
 &lt;td&gt;&lt;span class="time"&gt;11:00-12:30&lt;/span&gt; &lt;span class="speaker"&gt;Dimitrios Psaltis&lt;/span&gt;
-    &lt;span class="title"&gt;Gravitational Waves&lt;/span&gt;
+    &lt;span class="title"&gt;&lt;a href="../talks/Psaltis.pdf" target="_blank"&gt;Gravitational Waves&lt;/a&gt;&lt;/span&gt;
     &lt;span class="time"&gt;Review Article:&lt;/span&gt;
     &lt;span class="title"&gt;&lt;a href="http://iopscience.iop.org/article/10.1088/1367-2630/7/1/204/meta" target="_blank"&gt;The basics of gravitational wave theory&lt;/a&gt;&lt;/span&gt;
 &lt;td&gt;&lt;span class="time"&gt;11:00-11:30&lt;/span&gt; &lt;span class="speaker"&gt;Bruce Allen&lt;/span&gt;
@@ -10123,7 +10121,7 @@ a:hover, a:active { color: #FF2600 }
 
 &lt;tr class="plain" style="height: 13em;"&gt;
 &lt;td&gt;&lt;span class="time"&gt;15:30-17:00&lt;/span&gt; &lt;span class="speaker"&gt;Justin Khoury&lt;/span&gt;
-    &lt;span class="title"&gt;Alternative gravity theories&lt;/span&gt;
+    &lt;span class="title"&gt;&lt;a href="../talks/Khoury.pdf" target="_blank"&gt;Alternative gravity theories&lt;/a&gt;&lt;/span&gt;
 &lt;td&gt;&lt;span class="time"&gt;16:00-16:10&lt;/span&gt; &lt;span class="speaker"&gt;Aaron Zimmerman&lt;/span&gt;
     &lt;span class="title"&gt;The horizon modes of black holes&lt;/span&gt;
     &lt;span class="time"&gt;16:10-16:20&lt;/span&gt; &lt;span class="speaker"&gt;Alex Nielsen&lt;/span&gt;
@@ -10336,7 +10334,7 @@ a:hover, a:active { color: #FF2600 }
 			<key>currentGroupElement</key>
 			<string>118</string>
 			<key>documentIdentifier</key>
-			<string>04D25093-5E27-4E5D-A64E-F07CC8D3CCA2-24571-00005FAC5FDE08C7</string>
+			<string>4C9D28BF-1103-40E0-8C76-759F06441326-1696-0000008B79A9CF2F</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>114</string>
@@ -13439,7 +13437,7 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>04D25093-5E27-4E5D-A64E-F07CC8D3CCA2-24571-00005FAC5FDE08C7</string>
+			<string>4C9D28BF-1103-40E0-8C76-759F06441326-1696-0000008B79A9CF2F</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -13970,7 +13968,7 @@ Special rates apply to dates from January 24 to January 29, 2017. Quote Group Nu
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>04D25093-5E27-4E5D-A64E-F07CC8D3CCA2-24571-00005FAC5FDE08C7</string>
+			<string>4C9D28BF-1103-40E0-8C76-759F06441326-1696-0000008B79A9CF2F</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>143</string>
